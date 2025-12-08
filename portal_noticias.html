@@ -369,9 +369,9 @@
             <h1>🔬 ArXiv Daily Portal</h1>
             <p class="subtitle">Portal de Noticias Científicas - Últimas Investigaciones</p>
             <div class="stats">
-                <div class="stat-item">📊 20 Papers</div>
+                <div class="stat-item">📊 131 Papers</div>
                 <div class="stat-item">📅 08 de December de 2025</div>
-                <div class="stat-item">🏷️ 2 Categorías</div>
+                <div class="stat-item">🏷️ 6 Categorías</div>
             </div>
 
         </div>
@@ -384,29 +384,1443 @@
             </button>
             <div class="dropdown-menu">
                 <button class="dropdown-item" onclick="filterByCategory('all')">Mostrar todas</button>
+                <button class="dropdown-item" onclick="filterByCategory('Aprendizaje Automático')">Aprendizaje Automático</button>
+                <button class="dropdown-item" onclick="filterByCategory('Inteligencia Artificial')">Inteligencia Artificial</button>
                 <button class="dropdown-item" onclick="filterByCategory('Ingeniería de Software')">Ingeniería de Software</button>
-                <button class="dropdown-item" onclick="filterByCategory('Computación Neural y Evolutiva')">Computación Neural y Evolutiva</button>
+                <button class="dropdown-item" onclick="filterByCategory('Computadoras y Sociedad')">Computadoras y Sociedad</button>
+                <button class="dropdown-item" onclick="filterByCategory('Computación Neuronal y Evolutiva')">Computación Neuronal y Evolutiva</button>
+                <button class="dropdown-item" onclick="filterByCategory('Ingeniería Computacional, Finanzas y Ciencia')">Ingeniería Computacional, Finanzas y Ciencia</button>
             </div>
         </div>
     </section>
 
     <main class="container">
 
-        <section class="category" data-category="Ingeniería de Software">
+        <section class="category" data-category="Aprendizaje Automático">
             <div class="category-header">
                 <span style="font-size: 1.5rem;">📄</span>
-                <h2 class="category-title">Ingeniería de Software</h2>
-                <span class="category-count">16</span>
+                <h2 class="category-title">Aprendizaje Automático</h2>
+                <span class="category-count">69</span>
             </div>
             
             <div class="papers-grid">
 
                 <article class="paper-card">
+                    <span class="paper-emoji">📊</span>
+                    <h3 class="paper-title">Aprendizaje No Supervisado Avanzado: Una Visión Integral de las Técnicas de Agrupamiento Multivista</h3>
+                    <p class="paper-summary">📝 Esta encuesta abarca las técnicas de Agrupamiento Multivista (MVC), un enfoque que supera las limitaciones de los métodos de vista única al integrar datos de múltiples fuentes o dominios. Se presenta una categorización sistemática de los métodos MVC, un análisis de sus fortalezas/debilidades y una discusión sobre tendencias emergentes y aplicaciones interdisciplinarias, basada en la revisión de más de 140 publicaciones.</p>
+                    <div class="paper-points">• Encuesta exhaustiva sobre agrupamiento multivista (MVC)
+•  Categorización sistemática en 7 grupos de métodos (co-entrenamiento
+•  subespacios
+•  aprendizaje profundo
+•  etc.)
+•  Análisis de desafíos prácticos y aplicaciones en salud
+•  multimedia y redes sociales.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05169" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🩺 Enmascaramiento del Coeficiente de Variación: Una Estrategia Consciente de la Volatilidad para Modelos Fundacionales de EHR</h3>
+                    <p class="paper-summary">📝 Se propone una estrategia de preentrenamiento para modelos de autoencoders enmascarados aplicados a registros electrónicos de salud (EHR). En lugar del enmascaramiento aleatorio uniforme, se ajustan las probabilidades de enmascaramiento según la variabilidad intrínseca (volatilidad) de cada biomarcador. Esta estrategia mejora la reconstrucción, el rendimiento en tareas posteriores y la convergencia, produciendo representaciones más robustas y clínicamente significativas.</p>
+                    <div class="paper-points">• Estrategia de preentrenamiento que adapta el enmascaramiento a la volatilidad de los biomarcadores
+•  Supera a las estrategias basadas en enmascaramiento aleatorio o por varianza
+•  Produce representaciones de EHR más robustas y clínicamente informativas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05216" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⏱️ Repensando la Tokenización para Series de Tiempo Clínicas: Cuando Menos es Más</h3>
+                    <p class="paper-summary">📝 Evaluación sistemática de estrategias de tokenización para modelar series de tiempo clínicas con arquitecturas basadas en transformers. Hallazgos contra-intuitivos muestran que las codificaciones temporales explícitas no aportan beneficio consistente y que las características de valor tienen importancia dependiente de la tarea. Los codificadores de códigos preentrenados y congelados superan drásticamente a sus contrapartes entrenables, logrando un alto rendimiento con menor costo computacional.</p>
+                    <div class="paper-points">• Evaluación controlada que revela que la importancia de características temporales y de valor es dependiente de la tarea
+•  Codificadores preentrenados congelados superan en rendimiento siendo más eficientes en parámetros
+•  La estrategia óptima de tokenización es específica para cada tarea clínica.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05217" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Mitigando el Cuello de Botella de Datos Antigénicos: Aprendizaje Semi-supervisado con Modelos de Lenguaje de Proteínas para la Vigilancia de la Influenza A</h3>
+                    <p class="paper-summary">📝 Se aborda el cuello de botella de datos fenotípicos (etiquetas de antigenicidad) para la Influenza A combinando Modelos de Lenguaje de Proteínas (PLMs) preentrenados con Aprendizaje Semi-Supervisado (SSL). Evaluado en 4 subtipos del virus, el SSL compensa efectivamente la escasez de etiquetas. Los embeddings de ESM-2 permiten lograr altas puntuaciones F1 incluso con solo un 25% de datos etiquetados, facilitando una priorización más rápida de variantes y la selección de cepas para vacunas.</p>
+                    <div class="paper-points">• Combinación de Modelos de Lenguaje de Proteínas (PLMs) con Aprendizaje Semi-Supervisado (SSL) para predecir antigenicidad
+•  SSL mitiga la escasez de etiquetas
+•  logrando alta precisión incluso con pocos datos
+•  Potencial para una vigilancia más eficiente y selección oportuna de cepas vacunales.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05222" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🔄 La Varianza Importa: Mejorando la Adaptación de Dominio mediante Muestreo Estratificado</h3>
+                    <p class="paper-summary">📝 Se propone VaRDASS, una técnica de reducción de varianza especializada para Adaptación de Dominio No Supervisada (UDA). Aborda el problema de la alta varianza en la estimación de la discrepancia entre dominios en entornos estocásticos. Se derivan objetivos de estratificación para medidas de discrepancia como la alineación de correlación y MMD, y se presenta un algoritmo práctico de optimización tipo k-means. Experimentos muestran una mejora en la precisión de la estimación y en el rendimiento en el dominio objetivo.</p>
+                    <div class="paper-points">• Técnica de reducción de varianza (VaRDASS) para Adaptación de Dominio No Supervisada
+•  Objetivos de estratificación teóricamente óptimos para medidas de discrepancia como MMD
+•  Mejora la estimación de la discrepancia y el rendimiento en el dominio objetivo.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05226" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">MAR-FL: Un Sistema de Aprendizaje Federado Peer-to-Peer Eficiente en Comunicación</h3>
+                    <p class="paper-summary">📝 Se introduce MAR-FL, un sistema novedoso de Aprendizaje Federado (FL) peer-to-peer que reduce sustancialmente la sobrecarga de comunicación mediante una agregación basada en grupos iterativos. Logra un costo de comunicación que escala como O(N log N), en contraste con la complejidad O(N^2) de los métodos anteriores, manteniendo la resiliencia frente a la desconexión de clientes (churn) y permitiendo la integración de cómputo privado.</p>
+                    <div class="paper-points">• Sistema FL peer-to-peer con agregación grupal iterativa que reduce drásticamente la comunicación (escala O(N log N))
+•  Robusto frente a la desconexión de clientes y cambios en la red
+•  Permite la integración de cómputo privado.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05234" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🕸️ Algoritmo de Weisfeiler-Lehman con Aristas (Edged)</h3>
+                    <p class="paper-summary">📝 Se propone el algoritmo Edged-WL (E-WL), una extensión del algoritmo clásico de Weisfeiler-Lehman (1-WL) que incorpora características de las aristas (edges) del grafo. Basado en E-WL, se introduce también el modelo EGIN (Red de Isomorfismo de Grafos con Aristas) para explotar estas características. Evaluaciones en 12 conjuntos de datos de grafos con características en aristas muestran que EGIN logra un rendimiento superior en tareas de clasificación de grafos.</p>
+                    <div class="paper-points">• Extensión del algoritmo 1-WL para incorporar características de las aristas (E-WL)
+•  Propuesta del modelo EGIN para el aprendizaje en grafos que aprovecha características de nodos y aristas
+•  Demostración de rendimiento superior en clasificación de grafos con características en aristas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05238" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🌉 Uniendo la Computación Cuántica y Clásica para Ecuaciones Diferenciales Parciales mediante Aprendizaje Automático Multifidelidad</h3>
+                    <p class="paper-summary">📝 Se introduce un marco de aprendizaje multifidelidad que corrige soluciones aproximadas (de baja fidelidad) generadas por solucionadores cuánticos de EDPs, usando pocos datos clásicos de alta fidelidad. Esto supera las limitaciones de hardware cuántico actual (pocos qubits, circuitos poco profundos). Demostrado en EDPs no lineales como Burgers viscosa y flujos de Navier-Stokes, el marco logra predicciones corregidas competitivas con la precisión clásica, incluso extrapolando en el tiempo.</p>
+                    <div class="paper-points">• Marco de aprendizaje multifidelidad para corregir soluciones cuánticas aproximadas de EDPs
+•  Utiliza pocos datos clásicos de alta fidelidad para entrenar
+•  Permite extraer valor computacional de dispositivos cuánticos actuales para aplicaciones científicas prácticas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05241" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🔓 Cuando el desaprendizaje es gratuito: aprovechando puntos de baja influencia para reducir costos computacionales</h3>
+                    <p class="paper-summary">📝 Propone un marco eficiente para eliminar datos específicos de modelos entrenados. Identifica subconjuntos de datos con impacto despreciable en las salidas del modelo. Al reducir el conjunto de datos antes del proceso de &#x27;desaprendizaje&#x27;, logra ahorros computacionales de hasta ~50%.</p>
+                    <div class="paper-points">• Desaprendizaje de IA
+•  Funciones de influencia
+•  Optimización de costos computacionales
+•  Privacidad de datos</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05254" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">DMAGT: Revelando asociaciones miRNA-Fármaco integrando estructuras SMILES y secuencias de ARN mediante modelos Graph Transformer</h3>
+                    <p class="paper-summary">📝 Presenta DMAGT, un modelo de aprendizaje automático basado en redes neuronales de grafos con transformadores para predecir asociaciones entre fármacos y miRNAs. Transforma asociaciones en grafos, utiliza Word2Vec para incrustar características y logra un AUC de hasta 95.24%. Validación exitosa en 14 de 20 asociaciones potenciales identificadas.</p>
+                    <div class="paper-points">• Descubrimiento de fármacos
+•  microARN (miRNA)
+•  Red de Grafos con Transformadores
+•  Modelo predictivo</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05287" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Vinculando Interpretabilidad y Optimización: Actor-Critic con Ponderación de Atribución Probable en Espacios de Hilbert de Kernel Reproducente</h3>
+                    <p class="paper-summary">📝 Introduce RSA2C, un algoritmo actor-critic con atribución consciente y basado en kernel para mejorar la interpretabilidad en aprendizaje por refuerzo. Utiliza espacios RKHS y atribuciones SHAP para modular los gradientes del Actor. Demuestra convergencia teórica y resultados empíricos superiores en eficiencia, estabilidad e interpretabilidad.</p>
+                    <div class="paper-points">• Aprendizaje por Refuerzo Interpretable
+•  Métodos Actor-Critic
+•  Espacios RKHS
+•  Atribución SHAP</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05291" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🌊</span>
+                    <h3 class="paper-title">CFO: Aprendiendo dinámicas de EDP en tiempo continuo mediante operadores neuronales emparejados por flujo</h3>
+                    <p class="paper-summary">📝 Presenta el Operador de Flujo Continuo (CFO), un marco que aprende dinámicas de EDP en tiempo continuo sin esquemas autorregresivos. Utiliza &#x27;flow matching&#x27; para aprender el lado derecho de las EDPs. Es invariante a la resolución temporal y demuestra superior estabilidad a largo plazo y eficiencia en datos.</p>
+                    <div class="paper-points">• Operadores Neuronales
+•  EDPs dependientes del tiempo
+•  Flow Matching
+•  Inferencia de tiempo continuo</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05297" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📊</span>
+                    <h3 class="paper-title">Cuantificación de Incertidumbre para Aprendizaje Automático Científico usando Redes Kolmogorov-Arnold de Proceso Gaussiano Variacional Disperso (SVGP KAN)</h3>
+                    <p class="paper-summary">📝 Integra inferencia variacional gaussiana dispersa con la topología de Kolmogorov-Arnold para permitir cuantificación de incertidumbre en redes KAN. Logra escalabilidad con complejidad cuasi-lineal. Demuestra la capacidad de distinguir incertidumbre aleatoria de la epistémica en aplicaciones científicas como flujos de fluidos y detección fuera de distribución.</p>
+                    <div class="paper-points">• Redes KAN
+•  Proceso Gaussiano Variacional
+•  Incertidumbre Bayesiana
+•  Aprendizaje Automático Científico</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05306" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💡</span>
+                    <h3 class="paper-title">La erosión de las firmas de LLMs: ¿Podemos distinguir ideas científicas humanas y generadas por LLMs después de paráfrasis iterativa?</h3>
+                    <p class="paper-summary">📝 Evalúa la capacidad de los modelos de vanguardia para diferenciar ideas científicas humanas de las generadas por LLMs tras etapas sucesivas de paráfrasis. El rendimiento de detección cae un 25.4% después de cinco etapas. La información contextual del problema mejora la detección, pero la simplificación del estilo erosiona más las firmas distinguibles.</p>
+                    <div class="paper-points">• Detección de texto generado por IA
+•  LLMs
+•  Paráfrasis
+•  Atribución de fuente
+•  Investigación científica</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05311" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🎮</span>
+                    <h3 class="paper-title">Mejorando los Gradientes de Política Determinística Profunda en tareas de control continuo con Repetición de Experiencias Prioritizada Desacoplada</h3>
+                    <p class="paper-summary">📝 Introduce DPER, un mecanismo de repetición de experiencias que muestrea lotes de transiciones de forma independiente para entrenar al Actor y al Crítico en algoritmos de gradiente de política determinística. Al desacoplar las muestras, se proporcionan señales de aprendizaje más apropiadas para cada componente, mejorando la dinámica de entrenamiento y la calidad de la política final en tareas de control continuo.</p>
+                    <div class="paper-points">• Aprendizaje por Refuerzo
+•  Control Continuo
+•  Repetición de Experiencias
+•  Desacoplamiento Actor-Crítico
+•  TD3</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05320" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🌀 Prueba de robustez para la predicción de IA del huracán Florence usando FourCastNetv2 y perturbaciones aleatorias de la condición inicial</h3>
+                    <p class="paper-summary">📝 Evalúa la robustez del modelo de pronóstico del tiempo FourCastNetv2 inyectando ruido gaussiano en la condición inicial del huracán Florence. El modelo preserva características del huracán con ruido bajo/moderado, pero la precisión posicional se degrada con ruido alto. Subestima consistentemente la intensidad. Con condiciones iniciales aleatorias, genera pronósticos suaves y cohesivos.</p>
+                    <div class="paper-points">• Pronóstico del tiempo por IA
+•  Robustez
+•  Huracanes
+•  FourCastNet
+•  Perturbación de condiciones iniciales</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05323" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🌐 Optimización Federada No Convexa bajo Selección de Clientes Consciente del Costo</h3>
+                    <p class="paper-summary">📝 Introduce un modelo que cuantifica costos de comunicación y cómputo local en optimización federada, permitiendo diferentes estrategias de selección de clientes. Propone un nuevo algoritmo basado en SAGA y una técnica de Gradiente Recursivo (RG-SAGA) que logra las mejores complejidades de comunicación y local conocidas para optimización no convexa.</p>
+                    <div class="paper-points">• Aprendizaje Federado
+•  Optimización No Convexa
+•  Selección de Clientes
+•  Reducción de Varianza
+•  SAGA</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05327" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🧭 PathFinder: Selección de caminos basada en MCTS y retroalimentación de LLM para Respuesta a Preguntas Multi-Salto</h3>
+                    <p class="paper-summary">📝 Propone PATHFINDER, un enfoque para respuesta a preguntas multi-salto que utiliza Búsqueda de Árbol de Monte Carlo (MCTS) para generar trazas de entrenamiento. Mejora la calidad de los datos filtrando trazas erróneas con LLM como juez y reformulando sub-preguntas. Demuestra mejoras en el rendimiento sobre conjuntos de datos de referencia públicos.</p>
+                    <div class="paper-points">• Preguntas y Respuestas Multi-Salto
+•  LLMs
+•  Búsqueda de Árbol de Monte Carlo (MCTS)
+•  Razonamiento</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05336" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Tensores de Interacción Shap</h3>
+                    <p class="paper-summary">📝 Presenta IT SHAP, un método que calcula interacciones de alto orden de valores de Shapley usando contracciones de redes tensoriales. Reduce la complejidad exponencial a tiempo polinomial bajo estructura Tensor Train, permitiendo explicaciones escalables de IA que capturan efectos combinatorios en modelos de alta dimensión.</p>
+                    <div class="paper-points">• Representa interacciones de Shapley de alto orden como contracciones de tensores. Reduce complejidad de Θ(4^n) a tiempo NC2 paralelo. Proporciona un marco unificado y axiomático para explicaciones de IA con interacciones escalables.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05338" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔒</span>
+                    <h3 class="paper-title">Modelo de Moderación Adaptativo a Taxonomía con Barreras de Seguridad Robustas para Modelos de Lenguaje Grandes</h3>
+                    <p class="paper-summary">📝 Introduce Roblox Guard 1.0, un LLM ajustado por instrucciones basado en Llama-3.1-8B, diseñado para moderar entradas y salidas de modelos de lenguaje. Se entrena con conjuntos de datos de seguridad sintéticos y de código abierto, usando razonamientos de cadena de pensamiento para generalizar a taxonomías de seguridad no vistas.</p>
+                    <div class="paper-points">• Modelo de moderación de seguridad para LLMs que opera en entradas y salidas. Fine-tuning instructivo para generalización a taxonomías de seguridad nuevas. Incluye benchmark RobloxGuard-Eval para evaluación sistemática.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05339" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">Cuando Olvidar Construye Confiabilidad: Desaprendizaje de LLM para Generación Confiable de Código de Hardware</h3>
+                    <p class="paper-summary">📝 Propone un marco de desaprendizaje para LLMs que generan código de hardware, eliminando conocimiento problemático como IP propietaria o patrones inseguros. Combina una estrategia que preserva la sintaxis con una función de pérdida selectiva, manteniendo la capacidad de generación de código RTL funcionalmente correcto.</p>
+                    <div class="paper-points">• Desaprendizaje dirigido para eliminar IP propietaria y sesgos en LLMs de código hardware. Preserva integridad sintáctica y funcional del código RTL. Permite conjuntos de olvido 3 veces más grandes con una sola época de entrenamiento.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05341" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Mejora de la Predicción de Dimensionalidad en Haluros Metálicos Híbridos mediante Ingeniería de Características y Mitigación de Desbalance de Clases</h3>
+                    <p class="paper-summary">📝 Presenta un marco de aprendizaje automático para predecir la dimensionalidad estructural (0D, 1D, 2D, 3D) de haluros metálicos híbridos. Combina descriptores basados en interacciones químicas con técnicas como SMOTE para manejar el desbalance severo de clases, mejorando las puntuaciones F1 para clases infrarrepresentadas.</p>
+                    <div class="paper-points">• Predicción de dimensionalidad estructural en materiales híbridos. Ingeniería de características químicamente informada y manejo de desbalance de clases (SMOTE). Mejora robusta del rendimiento en validación cruzada para todas las dimensionalidades.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05367" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">📝 Racionalización de Texto para una Estimación Robusta del Efecto Causal</h3>
+                    <p class="paper-summary">📝 Introduce CATR, un marco que selecciona un subconjunto escaso y necesario de tokens de texto para estimar efectos causales. Mitiga violaciones del supuesto de positividad al eliminar características irrelevantes, estabilizando estimadores de efecto y mejorando la interpretabilidad en estudios con datos textuales.</p>
+                    <div class="paper-points">• Selección de tokens para control de confusión en inferencia causal con texto. Mitiga problemas de superposición (positividad) y alta dimensionalidad. Proporciona estimaciones más estables e interpretables
+•  validadas en MIMIC-III.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05373" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🌧️ Reducción de Escala a 3km Regional para China Basada en un Modelo de Difusión Correctiva Residual</h3>
+                    <p class="paper-summary">📝 Aplica el modelo generativo CorrDiff, basado en difusión, para reducir escala de pronósticos meteorológicos de 25km a 3km en la región china. Añade una conexión residual global y maneja variables de superficie y de presión, superando al modelo regional operativo CMA-MESO en error absoluto medio.</p>
+                    <div class="paper-points">• Downscaling estadístico con modelo de difusión (CorrDiff) para pronóstico meteorológico. Escala región 20 veces mayor que trabajo original
+•  incluyendo variables de múltiples niveles. Genera detalles realistas y supera al modelo regional de referencia (CMA-MESO).</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05377" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Generalización Más Allá de los Benchmarks: Evaluación de Funciones de Puntuación Aprendibles de Proteína-Ligando en Blancos No Vistos</h3>
+                    <p class="paper-summary">📝 Evalúa la capacidad de generalización de funciones de puntuación proteína-ligando a blancos proteicos novedosos. Revela que los benchmarks comunes no reflejan este desafío y explora si el preentrenamiento auto-supervisado a gran escala y métodos simples con datos limitados pueden mejorar el rendimiento en blancos no vistos.</p>
+                    <div class="paper-points">• Análisis crítico de la generalización de modelos de puntuación a nuevas proteínas. Los benchmarks estándar subestiman el desafío de generalización. Explora preentrenamiento y ajuste con datos limitados como soluciones potenciales.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05386" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⛏️ Momento Inteligente para Minería: Un Marco de Aprendizaje Profundo para la Predicción del ROI de Hardware de Bitcoin</h3>
+                    <p class="paper-summary">📝 Formula la adquisición de hardware de minería de Bitcoin como un problema de clasificación de series temporales. Propone MineROI-Net, un modelo basado en Transformers que predice si comprar un ASIC será rentable en un año, superando a líneas de base y ofreciendo alta precisión para guiar decisiones de inversión.</p>
+                    <div class="paper-points">• Predicción de rentabilidad (ROI) de hardware minero de Bitcoin con Transformers. Clasifica períodos como rentables
+•  marginales o no rentables. Alta precisión (83.7%) y relevancia económica para reducir riesgo financiero.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05402" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">RevoNAD: Exploración Evolutiva Reflexiva para el Diseño de Arquitecturas Neuronales</h3>
+                    <p class="paper-summary">📝 Introduce RevoNAD, un orquestador evolutivo que combina el razonamiento de LLMs con búsqueda arquitectónica alineada con retroalimentación. Usa consenso multi-experto, exploración reflexiva adaptativa y selección evolutiva guiada por Pareto para generar arquitecturas neuronales que optimicen precisión, eficiencia y diversidad.</p>
+                    <div class="paper-points">• Diseño de arquitecturas neuronales (NAD) impulsado por LLMs y evolución reflexiva. Maneja el colapso modal y el alejamiento hacia diseños inviables. Logra estado del arte en múltiples conjuntos de datos de visión y segmentación.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05403" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🏥</span>
+                    <h3 class="paper-title">Predicción de Sepsis Usando Redes de Convolución de Grafos sobre Tripletes Paciente-Característica-Valor</h3>
+                    <p class="paper-summary">📝 Propone Triplet-GCN, un modelo de grafos que representa registros de salud electrónicos (EHR) como tripletes paciente-característica-valor. Construye un grafo bipartito y usa una GCN para aprender representaciones de pacientes, superando a modelos tabulares en la predicción temprana de sepsis en una cohorte multicéntrica.</p>
+                    <div class="paper-points">• Modelo de grafos (GCN) para predicción de sepsis a partir de EHR estructurados. Representación de datos como tripletes (paciente
+•  característica
+•  valor). Supera a XGBoost
+•  Random Forest
+•  etc.
+•  en métricas de discriminación y utilidad clínica.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05416" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
                     <span class="paper-emoji">🔬</span>
-                    <h3 class="paper-title">Stellis: Un Lenguaje de Estrategia para Purificar Implicaciones de Lógica de Separación</h3>
-                    <p class="paper-summary">📝 Presenta Stellis, un lenguaje de estrategia para purificar implicaciones en lógica de separación, eliminando fórmulas espaciales para reducirlas a implicaciones puras más simples. Incluye un mecanismo de emparejamiento potente y genera condiciones de solidez para cada estrategia.</p>
-                    <div class="paper-points">• Lenguaje para codificar estrategias de automatización en lógica de separación. Algoritmo para generar condiciones de solidez. Prototipo que genera pruebas de corrección. Evalúa 229 implicaciones
-•  purificando automáticamente el 95.6%.</div>
+                    <h3 class="paper-title">TS-HINT: Mejora de la Regresión de Series Temporales de Semiconductores Usando Pistas de Atención del Razonamiento de Modelos de Lenguaje Grande</h3>
+                    <p class="paper-summary">📝 Se propone TS-HINT, un marco de Modelo Fundacional de Series Temporales (TSFM) que se integra con el razonamiento de cadena de pensamiento. Proporciona pistas de atención durante el entrenamiento basadas en datos de mecanismos de atención y datos de importancia. Es efectivo en entornos con datos limitados mediante aprendizaje de pocos disparos.</p>
+                    <div class="paper-points">• Uso de pistas de atención de LLMs para entrenamiento
+•  efectivo con datos limitados (few-shot learning)
+•  aprendizaje directo desde características de series temporales multivariadas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05419" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔬</span>
+                    <h3 class="paper-title">IdealTSF: ¿Pueden los Datos No Ideales Contribuir a Mejorar el Rendimiento de los Modelos de Pronóstico de Series Temporales?</h3>
+                    <p class="paper-summary">📝 Se propone IdealTSF, un marco que aprovecha muestras negativas no ideales (con valores faltantes o anomalías) para mejorar la predicción de eventos. Consiste en tres pasos: preentrenamiento con conocimiento de muestras negativas, transformación a muestras positivas ideales y optimización adversaria.</p>
+                    <div class="paper-points">• Aprovecha muestras negativas no ideales para mejorar la predicción
+•  marco de tres pasos (preentrenamiento
+•  entrenamiento
+•  optimización)
+•  especialmente útil para datos ruidosos o de baja calidad.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05442" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📊</span>
+                    <h3 class="paper-title">Cómo el Aprendizaje por Conjunto Equilibra Precisión y Sobreajuste: Una Perspectiva de Sesgo-Varianza en Datos Tabulares</h3>
+                    <p class="paper-summary">📝 Este estudio examina cómo los modelos de conjunto equilibran precisión y sobreajuste en tareas de clasificación tabular. Los conjuntos reducen la varianza mediante promedios o boosting controlado, ofreciendo mayor precisión en datos no lineales sin grandes brechas de generalización.</p>
+                    <div class="paper-points">• Los conjuntos reducen varianza y mejoran precisión en datos no lineales
+•  requieren regularización en datos ruidosos/desequilibrados
+•  se proponen indicadores de complejidad del conjunto de datos para guiar la selección.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05469" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">PERM EQ x GRAPH EQ: Redes Neuronales Equivariantes para el Aprendizaje Molecular Cuántico</h3>
+                    <p class="paper-summary">📝 Se comparan modelos de Aprendizaje Automático Cuántico Geométrico con diferentes simetrías (sin equivariancia, rotacional/permutacional, permutacional con incrustación de grafos) en conjuntos de datos moleculares. La incrustación de características en grafos mejora la capacidad de entrenamiento.</p>
+                    <div class="paper-points">• Comparación de modelos QML con diferentes simetrías
+•  incrustación de grafos mejora la capacidad de entrenamiento
+•  el modelo con simetría permutacional es el más generalizable.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05475" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🌪️ Regresión de Turbulencia</h3>
+                    <p class="paper-summary">📝 Se introduce un modelo de descomposición NeuTucker para predecir estados de turbulencia a baja altitud usando datos de radar de perfil de viento. Discretiza datos continuos y construye un tensor de interacción cuadridimensional para capturar interacciones espacio-temporales.</p>
+                    <div class="paper-points">• Modelo de descomposición Tucker neuronal para datos de campo de viento 3D
+•  discretización de datos continuos
+•  tensor de interacción 4D para relaciones espacio-temporales
+•  rendimiento superior en estimar observaciones faltantes.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05483" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧪</span>
+                    <h3 class="paper-title">GRASP: Agentes de Razonamiento en Grafos para la Farmacología de Sistemas con Humano en el Ciclo</h3>
+                    <p class="paper-summary">📝 GRASP es un marco multiagente con interfaz conversacional humana que codifica modelos de Farmacología de Sistemas Cuantitativa como grafos de conocimiento. Los compila a código ejecutable preservando restricciones biológicas y realiza alineación de parámetros con búsqueda en amplitud.</p>
+                    <div class="paper-points">• Marco multiagente con interfaz conversacional para QSP
+•  codifica modelos como grafos de conocimiento biológico
+•  alineación BFS para dependencias
+•  supera líneas de base guiadas por expertos en plausibilidad biológica y corrección matemática.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05502" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔒</span>
+                    <h3 class="paper-title">Clasificaciones Evidenciales Profundas Credal y por Intervalos</h3>
+                    <p class="paper-summary">📝 Se introducen CDEC e IDEC, nuevos enfoques para cuantificar incertidumbre en clasificación usando un conjunto credal (probabilidades) o un intervalo de distribuciones predictivas evidenciales. Pueden abstenerse de clasificar si la incertidumbre es alta y proporcionan garantías probabilísticas robustas.</p>
+                    <div class="paper-points">• Cuantifican incertidumbre epistémica y aleatoria
+•  capacidad de abstención ante alta incertidumbre
+•  garantías probabilísticas robustas
+•  precisión competitiva y detección OoD de vanguardia.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05526" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">📈 IDK-S: Kernel Distribucional Incremental para la Detección de Anomalías en Flujos de Datos</h3>
+                    <p class="paper-summary">📝 Se introduce IDK-S, un método incremental para detección de anomalías en flujos de datos. Crea una representación dinámica en el marco de incrustación de la media del kernel, con un mecanismo de actualización ligero que reduce la sobrecarga computacional sin comprometer la precisión.</p>
+                    <div class="paper-points">• Método incremental para flujos de datos
+•  herencia de las fortalezas del Isolation Distributional Kernel
+•  actualización ligera estadísticamente equivalente al reentrenamiento completo
+•  mayor precisión y velocidad que métodos actuales.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05531" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Sobre los Fundamentos Teóricos del Aprendizaje de Diccionarios Dispersos en la Interpretabilidad Mecanicista</h3>
+                    <p class="paper-summary">📝 Se desarrolla un marco teórico unificado para el Aprendizaje de Diccionarios Dispersos (SDL), que incluye autoencoders, transcoders y crosscoders. Explica fenómenos empíricos como la absorción de características y las neuronas muertas, y analiza el panorama de optimización.</p>
+                    <div class="paper-points">• Marco teórico unificado para SDL
+•  explicación teórica de fenómenos empíricos (absorción
+•  neuronas muertas)
+•  análisis del panorama de optimización
+•  experimentos controlados para validación.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05534" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">👁️ SCoNE: Conjunto de Vecindarios Consistente Esférico para una Detección de Anomalías Multi-Vista Eficaz y Eficiente</h3>
+                    <p class="paper-summary">📝 Se propone SCoNE, un método para detección de anomalías multi-vista que representa vecindarios consistentes directamente con instancias multi-vista, sin representaciones intermedias. Tiene propiedades dependientes de los datos y complejidad temporal lineal (O(N)).</p>
+                    <div class="paper-points">• Representación directa de vecindarios consistentes
+•  propiedades dependientes de datos (grandes en regiones dispersas
+•  pequeñas en densas)
+•  complejidad O(N) (más rápido que O(N²))
+•  mayor precisión y velocidad en grandes conjuntos de datos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05540" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">RoBoN: Best-of-n Enrutado Online para Escalado en Tiempo de Prueba con Múltiples LLMs</h3>
+                    <p class="paper-summary">📝 RoBoN es un enfoque secuencial y multi-modelo para el método de escalado &#x27;best-of-n&#x27; en la inferencia de LLMs. Enruta generaciones entre una suite de modelos basándose en un modelo de recompensa y una señal de acuerdo, sin necesidad de entrenamiento adicional. Supera consistentemente al &#x27;best-of-n&#x27; estándar de un solo modelo en benchmarks de razonamiento, explotando la diversidad entre modelos.</p>
+                    <div class="paper-points">• Enrutamiento secuencial online entre múltiples LLMs. No requiere entrenamiento adicional y mantiene paridad de cómputo. Mejora la precisión hasta en un 3.4% sobre el &#x27
+• best-of-n&#x27
+•  de un solo modelo.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05542" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Mejorando la Fidelidad Local mediante Muestreo y Modelado de No Linealidad</h3>
+                    <p class="paper-summary">📝 Propone un método novedoso para generar explicaciones de alta fidelidad para modelos de caja negra. Utiliza &#x27;Multivariate adaptive regression splines&#x27; (MARS) para modelar límites de decisión locales no lineales y una técnica de muestreo N-ball. Esto mejora la fidelidad de las explicaciones frente a métodos como LIME, reduciendo el error cuadrático medio en un 37% en promedio.</p>
+                    <div class="paper-points">• Modela no linealidades locales con MARS para explicaciones más precisas. Emplea muestreo N-ball directo para mejorar la fidelidad. Logra una reducción significativa del error frente a los baselines.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05556" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Aprendizaje de Variedad Semi-supervisado basado en Distancia de Wasserstein y Aplicación a la Detección de Multi-trayecto en GNSS</h3>
+                    <p class="paper-summary">📝 Presenta un enfoque de aprendizaje semi-supervisado basado en transporte óptimo para aprender de datos etiquetados escasos. Utiliza la distancia de Wasserstein como métrica de similitud en un mecanismo de propagación de etiquetas. Demuestra su efectividad en una aplicación real de GNSS para la detección de interferencia por multi-trayecto, mejorando la precisión de clasificación sobre métodos totalmente supervisados.</p>
+                    <div class="paper-points">• Aprendizaje semi-supervisado que usa la distancia de Wasserstein para la propagación de etiquetas. Aplicación exitosa a un problema real de detección en GNSS. Mejora la precisión con pocos datos etiquetados bajo diversas condiciones de señal.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05567" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Recorte de Proporción de Entropía como una Restricción Global Suave para un Aprendizaje por Refuerzo Estable</h3>
+                    <p class="paper-summary">📝 Introduce un mecanismo de Recorte de Proporción de Entropía (ERC) para estabilizar el entrenamiento RL en el ajuste posterior de LLMs. ERC cuantifica el cambio relativo en la exploración de la política y aplica restricciones bidireccionales a nivel de distribución global. Integrado en algoritmos como DAPO y GPPO, mejora consistentemente el rendimiento y la estabilidad frente a métodos como PPO-Clip.</p>
+                    <div class="paper-points">• Nueva métrica global: proporción de entropía entre políticas actual y anterior. Mecanismo de recorte (ERC) que estabiliza actualizaciones a nivel de distribución. Mejora el rendimiento en múltiples benchmarks y es robusto frente al desplazamiento de distribución.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05591" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">La Transferencia de Hiperparámetros Permite Ganancias Consistentes de Optimizadores con Precondicionamiento Matricial a través de Escalas</h3>
+                    <p class="paper-summary">📝 Investiga cómo escalar optimizadores con precondicionamiento matricial (Shampoo, SOAP, Muon) mediante reglas de transferencia de hiperparámetros, basándose en principios como μP. Encuentra que escalar la tasa de aprendizaje y el &#x27;weight decay&#x27; correctamente es crucial. Al aplicar estas reglas, se logran aceleraciones consistentes (1.3x-1.4x sobre AdamW) al entrenar modelos tipo Llama desde 190M hasta 1.4B parámetros.</p>
+                    <div class="paper-points">• Establece reglas de escalado para hiperparámetros en optimizadores precondicionados. La transferencia correcta es clave para obtener mejoras consistentes a gran escala. Logra aceleraciones reproducibles sobre AdamW en arquitecturas de lenguaje a escala.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05620" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Agrupamiento de Grafos Acotado con Redes Neuronales de Grafos</h3>
+                    <p class="paper-summary">📝 Aborda la limitación de los GNNs para devolver un número exacto de comunidades especificado por el usuario. Propone un marco flexible que permite especificar un rango plausible de clústeres o un número exacto, y hacer cumplir estos límites durante el entrenamiento. Esto proporciona un control más preciso y fiable sobre la detección de comunidades en comparación con métodos GNN estándar.</p>
+                    <div class="paper-points">• Permite controlar el número de comunidades descubiertas por GNNs. El usuario puede especificar un rango o un número exacto de clústers. Marco flexible y con principios que supera una limitación de diseño común en GNNs.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05623" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">&#x27;Jets&#x27; Modulares para Tuberías Supervisadas: Diagnóstico de Espejismo vs Identificabilidad</h3>
+                    <p class="paper-summary">📝 Introduce &#x27;Modular Jets&#x27; para diagnosticar la identificabilidad interna de tuberías (pipelines) de aprendizaje supervisado. Los &#x27;jets&#x27; empíricos son mapas de respuesta lineal local que describen la reacción de cada módulo a perturbaciones. Distingue entre regímenes de &#x27;espejismo&#x27; (múltiples descomposiciones son equivalentes) e &#x27;identificables&#x27; (la descomposición es única). Incluye un teorema de identificabilidad para regresión lineal de dos módulos.</p>
+                    <div class="paper-points">• Nuevo marco para analizar la identificabilidad interna de modelos modulares. Introduce &#x27
+• jets&#x27
+•  empíricos como herramientas de diagnóstico. Diferencia entre descomposiciones &#x27
+• espejismo&#x27
+•  e identificables teóricamente.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05638" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Más Allá del Filtrado de Datos: Localización de Conocimiento para la Eliminación de Capacidades en LLMs</h3>
+                    <p class="paper-summary">📝 Propone &#x27;Selective Gradient Masking&#x27; (SGTM), una variante mejorada de &#x27;Gradient Routing&#x27;, para localizar y eliminar conocimientos específicos (ej. un idioma, biología) de los LLMs durante el preentrenamiento. SGTM es robusta al ruido en las etiquetas de los datos y ofrece un mejor equilibrio entre retener/olvidar que el filtrado de datos o métodos previos. También muestra fuerte resistencia a fine-tuning adversarial para revertir el &#x27;olvido&#x27;.</p>
+                    <div class="paper-points">• Método de preentrenamiento (SGTM) para localizar y eliminar conocimientos de forma robusta. Supera al filtrado de datos y a métodos previos en entornos con ruido de etiquetas. Muestra alta resistencia a intentos de revertir el &#x27
+• olvido&#x27
+•  mediante fine-tuning.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05648" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">Factibilidad de la Programación Asistida por IA para el Desarrollo por Usuario Final</h3>
+                    <p class="paper-summary">📝 Investiga si la programación asistida por IA (usando asistentes basados en LLMs) es un paradigma factible para el desarrollo por usuarios finales (EUD), comparado con las plataformas visuales de bajo-código/sin-código (LCNC). Un estudio de caso donde no-programadores crearon una aplicación web básica con IA mostró que la mayoría tuvo éxito. Los resultados sugieren que este enfoque puede complementar o incluso reemplazar al modelo LCNC, ofreciendo mayor flexibilidad.</p>
+                    <div class="paper-points">• Explora la programación asistida por IA como alternativa a plataformas LCNC para usuarios finales. Estudio de caso muestra que no-programadores pueden completar tareas de desarrollo con IA. Implicaciones para la práctica futura
+•  investigación y enseñanza académica.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05666" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">📡 Meta-Aprendizaje de Bandidos Multi-brazo para Seguimiento de Haz en Redes 5G y 6G</h3>
+                    <p class="paper-summary">📝 Formula el problema de selección de haz en redes 5G/6G como un Proceso de Decisión Markoviano Parcialmente Observable (POMDP) y lo resuelve con meta-aprendizaje de bandidos multi-brazo. En contraste con enfoques supervisados, este método localiza el haz óptimo en movimiento mediante una búsqueda online, manejando mejor nuevas trayectorias y cambios en el entorno. Supera a trabajos previos por órdenes de magnitud.</p>
+                    <div class="paper-points">• Enfoque POMDP y bandidos multi-brazo para selección dinámica de haces. Maneja trayectorias no vistas y cambios ambientales mejor que métodos supervisados. Logra mejoras de rendimiento significativas frente a trabajos anteriores.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05680" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">BERTO: Un Predictor de Series Temporales de Red Adaptativo Basado en BERT con Preferencias del Operador en Lenguaje Natural</h3>
+                    <p class="paper-summary">📝 Se presenta BERTO, un marco basado en BERT y arquitecturas transformadoras para la predicción de tráfico y optimización energética en redes celulares. Su función de pérdida de balanceo y personalización mediante prompts en lenguaje natural permite ajustar el equilibrio entre ahorro energético y rendimiento. Los experimentos muestran una reducción del MSE del 4.13%.</p>
+                    <div class="paper-points">• Predicción de tráfico y optimización energética en redes celulares. Función de pérdida de balanceo y prompts en lenguaje natural para guiar el modelo. Alta precisión y flexibilidad operativa.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05721" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Enseñando Explicabilidad Mecanicista a Modelos de Lenguaje Mediante Flechas de Reacción</h3>
+                    <p class="paper-summary">📝 Se introduce un marco computacional para enseñar a modelos de lenguaje a predecir mecanismos de reacción química mediante el formalismo de &#x27;arrow pushing&#x27;. Se desarrolla MechSMILES, un formato textual que codifica estructura molecular y flujo de electrones, y se entrenan modelos que logran alta precisión en tareas de predicción de mecanismos.</p>
+                    <div class="paper-points">• Predicción de mecanismos de reacción química usando notación de flujo de electrones. Creación del formato MechSMILES. Aplicaciones en validación de sistemas de síntesis
+•  mapeo átomo-a-átomo y extracción de plantillas de reacción.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05722" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Hacia Redes Neuronales Informadas por Modelos Basados en Agentes</h3>
+                    <p class="paper-summary">📝 Se presenta ABM-NN, un marco para diseñar redes neuronales consistentes con los principios subyacentes de los modelos basados en agentes. Combina redes neuronales de grafos restringidas y descomposición jerárquica para aprender dinámicas interpretables y que preservan la estructura. Se valida en sistemas ecológicos, modelos de contagio y un modelo macroeconómico real.</p>
+                    <div class="paper-points">• Integración de principios de modelos basados en agentes en redes neuronales. Uso de redes de grafos y descomposición jerárquica. Validación en sistemas Lotka-Volterra
+•  modelos SIR y dinámica macroeconómica.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05764" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Ventana de Aprendibilidad en Redes Neuronales Recurrentes con Puertas</h3>
+                    <p class="paper-summary">📝 Se desarrolla un marco teórico que explica cómo los mecanismos de puerta determinan la ventana de aprendibilidad (H_N) en redes recurrentes. Se muestra que la estabilidad numérica no es suficiente; la aprendibilidad está gobernada por tasas de aprendizaje efectivas que actúan como filtros multiplicativos para el transporte del gradiente.</p>
+                    <div class="paper-points">• Marco teórico para la aprendibilidad en redes recurrentes con puertas. Definición de la ventana de aprendibilidad H_N y tasas de aprendizaje efectivas. Relación entre espectro de puertas
+•  ruido en el gradiente y complejidad de muestra.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05790" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Interpretabilidad Mecanicista de Modelos de Lenguaje de Anticuerpos Usando SAEs</h3>
+                    <p class="paper-summary">📝 Se emplean Autoencoders Dispersos (SAEs) para investigar el modelo de lenguaje de anticuerpos p-IgGen. Se muestra que los SAEs TopK revelan características biológicas, pero no garantizan control causal, mientras que los SAEs Ordenados permiten un control de generación preciso a costa de patrones de activación menos interpretables.</p>
+                    <div class="paper-points">• Uso de SAEs para interpretar modelos de lenguaje de proteínas específicas de dominio. Comparación entre SAEs TopK y SAEs Ordenados. SAEs Ordenados son preferibles para el control preciso de la generación.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05794" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Límite de Utilidad de la Destilación de Conjuntos de Datos: Leyes de Escalado y Cobertura de Configuraciones</h3>
+                    <p class="paper-summary">📝 Se propone un marco teórico unificado para la destilación de conjuntos de datos (DD). Proporciona una ley de escalado (error vs tamaño) y una ley de cobertura (tamaño requerido vs diversidad de configuración). El análisis revela que diferentes métodos de &#x27;matching&#x27; son sustitutos intercambiables que reducen el mismo error de generalización.</p>
+                    <div class="paper-points">• Marco teórico unificado para la destilación de conjuntos de datos. Ley de escalado y ley de cobertura de configuraciones. Análisis de la equivalencia de métodos de optimización sustitutos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05817" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Aproximación del Algoritmo de Descomposición en Cajas para una Optimización Multiobjetivo Rápida Basada en Hipervolumen</h3>
+                    <p class="paper-summary">📝 La Optimización Bayesiana (BO) basada en Hipervolumen (HV) es costosa computacionalmente. El trabajo detalla matemática y algorítmicamente un método de aproximación para la descomposición en cajas del HV, que mitiga la complejidad de memoria super-polinómica del algoritmo exacto.</p>
+                    <div class="paper-points">• Optimización Bayesiana Multiobjetivo basada en Hipervolumen. Aborda el cuello de botella computacional del cálculo de mejora del HV. Descripción completa de un algoritmo de aproximación para la descomposición en cajas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05825" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">NEAT: Transformador de Conjuntos Autoregresivo, Eficiente y Guiado por Vecindad para Generación Molecular 3D</h3>
+                    <p class="paper-summary">📝 Se introduce NEAT, un modelo autoregresivo que trata los grafos moleculares como conjuntos de átomos, aprendiendo una distribución invariante a permutaciones sobre los tokens admisibles en el límite del grafo. Alcanza un rendimiento de vanguardia en generación molecular 3D con alta eficiencia computacional.</p>
+                    <div class="paper-points">• Modelo autoregresivo para generación molecular 3D. Trata moléculas como conjuntos (invariante a permutaciones de átomos). Guiado por vecindad y eficiente computacionalmente.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05844" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Post-Entrenamiento de Atención Dispersa para Interpretabilidad Mecanicista</h3>
+                    <p class="paper-summary">📝 Se introduce un método simple de post-entrenamiento que hace que la atención del transformador sea dispersa sin sacrificar rendimiento. La esparsidad local se convierte en una simplificación global de los circuitos, implicando muchos menos componentes, lo que sugiere que gran parte del cálculo en la atención es redundante.</p>
+                    <div class="paper-points">• Método de post-entrenamiento para esparsificar la atención en transformadores. Retiene el rendimiento original mientras simplifica los patrones de conectividad. La esparsidad actúa como un principio organizativo para la interpretabilidad.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05865" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">💹 Predicción de Movimientos de Precio en Datos Financieros de Alta Frecuencia con Redes Neuronales de Picos</h3>
+                    <p class="paper-summary">📝 Se investiga el uso de Redes Neuronales de Picos (SNNs) para predecir picos de precio en entornos de alta frecuencia (HFT). Se introduce una nueva métrica de optimización (PSA) y se usa Optimización Bayesiana para el ajuste de hiperparámetros. Los modelos optimizados con PSA superan significativamente a las alternativas en backtesting.</p>
+                    <div class="paper-points">• Aplicación de SNNs a la predicción de picos de precio de alta frecuencia. Nueva métrica de optimización PSA para alinear tasas de predicción y eventos reales. Optimización Bayesiana para ajuste robusto de hiperparámetros.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05868" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Diseño Computacional de Lubricantes de Baja Volatilidad para el Espacio Usando Aprendizaje Automático Interpretable</h3>
+                    <p class="paper-summary">📝 Este trabajo presenta un enfoque basado en datos y aprendizaje automático para predecir la presión de vapor, permitiendo el cribado virtual y el descubrimiento de nuevos lubricantes líquidos adecuados para el espacio. Los modelos se entrenan con datos de simulaciones de dinámica molecular y bases de datos experimentales, priorizando la interpretabilidad para identificar relaciones entre la estructura química y la presión de vapor. Con estos conocimientos, se proponen varias moléculas candidatas para futuras aplicaciones de lubricación en ensamblajes mecánicos espaciales.</p>
+                    <div class="paper-points">• Predicción de presión de vapor para lubricantes espaciales. Modelos de ML interpretables que relacionan estructura química y propiedades. Propuesta de moléculas candidatas a partir de cribado virtual.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05870" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧠</span>
+                    <h3 class="paper-title">Coherencia Neural: Encontrar mayor rendimiento en tareas fuera de distribución a partir de pocas muestras</h3>
+                    <p class="paper-summary">📝 Propone un nuevo enfoque para la selección de modelos que opera de manera fiable con solo unos pocos ejemplos sin etiquetar de la tarea objetivo. El método se basa en el concepto de Coherencia Neural, que caracteriza las estadísticas de activación de un modelo para dominios fuente y objetivo. Mejora significativamente la generalización en dominios objetivo como Food-101, PlantNet-300K e iNaturalist, y también es efectivo en selección de datos de entrenamiento.</p>
+                    <div class="paper-points">• Selección de modelos con pocos ejemplos sin etiquetar y fuera de distribución. Concepto de Coherencia Neural basado en estadísticas de activación. Evaluación en múltiples dominios y configuraciones de meta-aprendizaje.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05880" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔬</span>
+                    <h3 class="paper-title">DAE-HardNet: Una Red Neuronal con Restricciones Físicas que Impone Restricciones Duras Diferencial-Algebraicas</h3>
+                    <p class="paper-summary">📝 Introduce DAE-HardNet, una red neuronal con restricciones físicas (no solo informada por la física) que aprende funciones y sus derivadas simultáneamente, haciendo cumplir restricciones algebraicas y diferenciales de forma estricta. Utiliza una capa de proyección diferenciable. Logra reducciones de órdenes de magnitud en la pérdida física manteniendo la precisión de predicción en sistemas como Lotka-Volterra y conducción de calor transitoria.</p>
+                    <div class="paper-points">• Aplicación estricta de ecuaciones diferencial-algebraicas (DAEs). Capa de proyección diferenciable para forzar el cumplimiento de restricciones. Precisión mejorada y aprendizaje de derivadas en comparación con PINNs y MLPs.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05881" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧠</span>
+                    <h3 class="paper-title">NeuroMemFPP: Un enfoque neuronal recurrente para la estimación de parámetros con memoria en el proceso de Poisson fraccional</h3>
+                    <p class="paper-summary">📝 Propone un marco basado en redes neuronales recurrentes (RNN) para estimar los parámetros del proceso de Poisson fraccional (FPP), que modela llegadas de eventos con memoria y dependencia de largo alcance. Una red LSTM estima los parámetros a partir de secuencias de tiempos entre llegadas. Reduce el error cuadrático medio (MSE) en un 55.3% respecto al método de momentos y se prueba con éxito en datos de llamadas de emergencia y transacciones bursátiles.</p>
+                    <div class="paper-points">• Estimación de parámetros para el proceso de Poisson fraccional usando LSTM. Reducción significativa del MSE frente a métodos tradicionales. Validación en datos del mundo real con dependencias temporales complejas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05893" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📐</span>
+                    <h3 class="paper-title">LDLT: Un Marco de Desigualdad Matricial Lineal para Redes Residuales Lipschitz</h3>
+                    <p class="paper-summary">📝 Presenta un enfoque riguroso para el diseño general de redes residuales profundas L-Lipschitz usando un marco de Desigualdad Matricial Lineal (LMI). Mediante una descomposición LDL⊤, extiende la construcción a otras arquitecturas no lineales. La metodología permite diseños de redes robustas aplicables a robustez adversarial, entrenamiento certificado y sistemas de control, logrando ganancias de precisión del 3%-13% en conjuntos de datos UCI.</p>
+                    <div class="paper-points">• Construcción de redes residuales con restricción Lipschitz usando LMIs. Descomposición LDL⊤ para certificar viabilidad y parametrización eficiente. Aplicaciones en robustez adversarial y entrenamiento certificado.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05915" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💾</span>
+                    <h3 class="paper-title">KQ-SVD: Comprimiendo la Caché KV con Garantías Comprobables sobre la Fidelidad de la Atención</h3>
+                    <p class="paper-summary">📝 Introduce KQ-SVD, un método simple y computacionalmente eficiente para comprimir la caché de Clave-Valor (KV) en LLMs. Realiza una descomposición de bajo rango óptima de la matriz de atención mediante una solución de forma cerrada, preservando las salidas de atención con mayor fidelidad bajo compresión. Las evaluaciones en modelos LLaMA y Mistral demuestran una calidad de proyección superior en comparación con métodos anteriores.</p>
+                    <div class="paper-points">• Compresión óptima de la caché KV apuntando a la matriz de atención. Solución de forma cerrada y computacionalmente eficiente. Evaluación que muestra superioridad en calidad de proyección en modelos LLaMA/Mistral.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05916" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📊</span>
+                    <h3 class="paper-title">Sobre la Inconsistencia Bayesiana de las Funciones Sustitutas de Discrepancia de Desacuerdo</h3>
+                    <p class="paper-summary">📝 Demuestra que las funciones sustitutas existentes para la discrepancia de desacuerdo no son consistentes según Bayes, revelando que maximizarlas puede no maximizar la verdadera discrepancia. Introduce nuevos límites teóricos y propone una nueva función de pérdida de desacuerdo que, emparejada con entropía cruzada, produce un sustituto probadamente consistente. Las evaluaciones empíricas muestran estimaciones más precisas y robustas en diversos benchmarks.</p>
+                    <div class="paper-points">• Demostración teórica de la inconsistencia Bayesiana de sustitutos existentes. Propuesta de un nuevo sustituto consistente para la discrepancia de desacuerdo. Evaluación empírica que muestra mejoras en precisión y robustez.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05931" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🏢</span>
+                    <h3 class="paper-title">Desarrollo de Microdatos Sintéticos mediante Aprendizaje Automático para Encuestas Empresariales a Nivel de Firma</h3>
+                    <p class="paper-summary">📝 Describe un modelo de aprendizaje automático para construir microdatos de uso público (PUMS) sintéticos basados en la Encuesta Anual de Negocios (ABS) de la Oficina del Censo de EE.UU. Los datos sintéticos preservan momentos críticos sin contener registros de negocios reales, abordando desafíos únicos como la falta de anonimato en datos empresariales. La replicación econométrica demuestra la verosimilitud de los datos sintéticos con los verdaderos.</p>
+                    <div class="paper-points">• Generación de microdatos sintéticos para proteger la confidencialidad en encuestas empresariales. Enfoque con ML para preservar propiedades estadísticas clave. Demostración de verosimilitud mediante replicación econométrica.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05948" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🔄 Impugan: Aprendiendo Modelos Generativos Condicionales para la Imputación Robusta de Datos</h3>
+                    <p class="paper-summary">📝 Propone Impugan, una Red Generativa Adversaria Condicional (cGAN) para imputar valores faltantes e integrar conjuntos de datos heterogéneos. El modelo captura relaciones no lineales y multimodales que los métodos convencionales no pueden representar. En experimentos, logra hasta un 82% menos de Distancia del Acarreador de Tierra (EMD) y un 70% menos de desviación de información mutua en comparación con los métodos principales.</p>
+                    <div class="paper-points">• Imputación de datos con cGAN para capturar dependencias complejas y multimodales. Proceso adversarial que aplica realismo a los datos imputados. Evaluación que muestra mejoras significativas en métricas de distancia y información.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05950" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⚖️ MaxShapley: Hacia una Búsqueda Generativa Compatible con Incentivos y Atribución Justa de Contexto</h3>
+                    <p class="paper-summary">📝 Introduce MaxShapley, un algoritmo eficiente para la atribución justa en motores de búsqueda generativa que usan Generación Aumentada por Recuperación (RAG). Es un caso especial del valor de Shapley que calcula atribuciones con costo computacional lineal en el número de documentos, en lugar del costo exponencial. En datasets de preguntas y respuestas, logra calidad de atribución comparable al cálculo exacto de Shapley con una fracción del consumo de recursos.</p>
+                    <div class="paper-points">• Atribución justa y eficiente para contenido en búsqueda generativa (RAG). Algoritmo con costo computacional lineal (MaxShapley). Reducción de hasta 8x en consumo de recursos manteniendo precisión.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05958" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Lo Que Permanezca Debe Ser Verdadero: El Filtro Conduce el Razonamiento en los LLMs, Modelando la Diversidad</h3>
+                    <p class="paper-summary">📝 El Aprendizaje por Refuerzo (RL) para ajustar LLMs a menudo reduce su diversidad, ya que optimiza implícitamente una divergencia &#x27;buscadora de modas&#x27;. Este trabajo propone comenzar desde una distribución objetivo explícita, obtenida filtrando respuestas incorrectas, y aproximarla usando la familia de divergencia α, que permite controlar el equilibrio entre precisión y diversidad.</p>
+                    <div class="paper-points">• Propone usar filtrado explícito para preservar la diversidad en LLMs. Introduce el uso de la divergencia α para un control directo del equilibrio precisión-diversidad. Logra un rendimiento de vanguardia en un benchmark de demostración de teoremas en Lean.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05962" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="category" data-category="Inteligencia Artificial">
+            <div class="category-header">
+                <span style="font-size: 1.5rem;">📄</span>
+                <h2 class="category-title">Inteligencia Artificial</h2>
+                <span class="category-count">25</span>
+            </div>
+            
+            <div class="papers-grid">
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🗣️ Documentación de Procesos de PYMES con IA Conversacional: Del Conocimiento Tácito a BPMN</h3>
+                    <p class="paper-summary">📝 Introduce un asistente conversacional impulsado por un LLM (Gemini 2.5 Pro) que captura conocimiento tácito en PYMES y lo convierte interactivamente en diagramas BPMN 2.0 estándar. Una evaluación de prueba de concepto muestra que puede generar modelos &#x27;AS-IS&#x27; y variantes mejoradas &#x27;TO-BE&#x27; de manera rápida y económica.</p>
+                    <div class="paper-points">• Reduce las barreras de habilidad y costo para la documentación rigurosa de procesos. Produce diagramas BPMN en tiempo real que los usuarios pueden refinar. Mantiene los costos de API dentro de un presupuesto accesible para PYMES.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05122" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧠</span>
+                    <h3 class="paper-title">Métricas de Fidelidad Semántica y Producción de Entropía para Domar Tus Demonios de LLM y Gestionar Alucinaciones</h3>
+                    <p class="paper-summary">📝 Propone dos nuevas métricas no supervisadas basadas en teoría de la información y termodinámica para evaluar la fidelidad de los LLMs: Fidelidad Semántica (SF) y Producción de Entropía Semántica (SEP). Estas métricas miden cuán fiel es una respuesta a un contexto dado y su relación con la producción de alucinaciones.</p>
+                    <div class="paper-points">• Modela tripletas Pregunta-Contexto-Respuesta como distribuciones de probabilidad sobre temas compartidos. La métrica SF cuantifica la fidelidad mediante la divergencia KL entre matrices de transformación de temas. Alta fidelidad generalmente implica baja producción de entropía (SEP).</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05156" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🧑‍🏫 Uniendo el Aprendizaje Automático Tradicional y los Modelos de Lenguaje Grandes: Un Diseño de Curso de Dos Partes para la Educación Moderna en IA</h3>
+                    <p class="paper-summary">📝 Describe un enfoque pedagógico innovador que estructura un curso de IA en dos partes secuenciales: conceptos fundamentales de aprendizaje automático y aplicaciones contemporáneas de LLMs. Este diseño integral ayuda a los estudiantes a comprender la evolución de la IA y a desarrollar habilidades prácticas con tecnologías establecidas y de vanguardia.</p>
+                    <div class="paper-points">• Diseño de curso secuencial y complementario que abarca desde ML tradicional hasta LLMs modernos. Mejora la comprensión del panorama general de la IA y prepara mejor a los estudiantes para las demandas de la industria. Basado en la implementación y evaluación de un curso de verano de dos términos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05167" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Sobre la Computabilidad de la Inteligencia General Artificial</h3>
+                    <p class="paper-summary">📝 El trabajo explora los límites superiores de cualquier proceso computable para alcanzar la Inteligencia General Artificial (AGI). Demuestra formalmente que ningún algoritmo puede demostrar capacidades funcionales verdaderamente nuevas o creativas que no estuvieran ya presentes en el algoritmo inicial. Concluye que la AGI, definida como la capacidad de innovar y crear de forma genuinamente nueva, es incomputable.</p>
+                    <div class="paper-points">• Define límites teóricos para la AGI. Prueba formal de la incomputabilidad de la creatividad algorítmica. Discute implicaciones para el desarrollo de IA y los orígenes de la inteligencia humana.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05212" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Resolviendo la Paradoja de Zadeh: La Teoría de la Posibilidad Axiomática como Base para una Inteligencia Artificial Fiable</h3>
+                    <p class="paper-summary">📝 Propone que la teoría de la posibilidad, específicamente el enfoque axiomático de Bychkov, resuelve las paradojas de la Teoría de Dempster-Shafer (DST) y proporciona una base lógicamente consistente para trabajar con la incertidumbre. Mediante un análisis comparativo de paradigmas (probabilístico, evidencial y posibilístico) y un ejemplo médico, muestra cómo esta teoría procesa datos contradictorios evitando las trampas lógicas de la DST.</p>
+                    <div class="paper-points">• Presenta la teoría de la posibilidad como solución fundamental a las paradojas de DST. Utiliza una base axiomática dualista (medidas de posibilidad y necesidad). Aplica un ejemplo de diagnóstico médico para comparar paradigmas de razonamiento bajo incertidumbre.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05257" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Co-Mejora Humano-IA para una Co-Superinteligencia más Segura</h3>
+                    <p class="paper-summary">📝 Aboga por cambiar el objetivo del auto-mejoramiento (self-improvement) de la IA, considerado peligroso, por la co-mejora (co-improvement): una colaboración simbiótica entre investigadores humanos y sistemas de IA para lograr una &#x27;co-superinteligencia&#x27;. El enfoque busca mejorar la capacidad de los sistemas de IA para trabajar con humanos en investigación, desde la ideación hasta la experimentación, acelerando el avance de manera más segura.</p>
+                    <div class="paper-points">• Propone la &#x27
+• co-mejora&#x27
+•  como alternativa más segura y alcanzable al auto-mejoramiento de IA. Busca una colaboración simbiótica para lograr una &#x27
+• co-superinteligencia&#x27
+• . Enfatiza la seguridad y la aceleración de la investigación en IA al mantener a humanos en el ciclo.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05356" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🏥</span>
+                    <h3 class="paper-title">MCP-AI: Un Marco de Inteligencia Guiado por Protocolos para el Razonamiento Autónomo en el Cuidado de la Salud</h3>
+                    <p class="paper-summary">📝 Introduce MCP-AI, una arquitectura innovadora que combina el Model Context Protocol (MCP) con aplicaciones clínicas para permitir un razonamiento autónomo, longitudinal y colaborativo. A diferencia de los sistemas de apoyo a decisiones clínicas tradicionales, utiliza &#x27;archivos MCP&#x27; como objetos de memoria reutilizables y auditables que capturan objetivos clínicos, contexto del paciente y lógica de tareas, validándose en casos de uso como el Síndrome X Frágil y la diabetes.</p>
+                    <div class="paper-points">• Arquitectura novedosa que integra MCP para razonamiento clínico explicable y de largo plazo. Crea protocolos ejecutables que funcionan como memoria clínica auditables. Se conecta con estándares como HL7/FHIR y cumple con normativas HIPAA y FDA SaMD.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05365" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">ChipMind: Razonamiento Aumentado por Recuperación para Especificaciones de Diseño de Circuitos de Largo Contexto</h3>
+                    <p class="paper-summary">📝 Presenta ChipMind, un marco de razonamiento aumentado por grafos de conocimiento diseñado para procesar especificaciones extensas y complejas de circuitos integrados. Transforma las especificaciones en un grafo de conocimiento específico del dominio (ChipKG) y luego utiliza un mecanismo de recuperación adaptiva para rastrear dependencias lógicas y filtrar ruido semántico, superando significativamente a los métodos anteriores en un benchmark industrial.</p>
+                    <div class="paper-points">• Supera la limitación de ventanas de contexto cortas en LLMs para diseño de hardware. Construye un grafo de conocimiento específico de dominio (ChipKG). Logra mejoras de rendimiento de hasta un 72.73% en tareas de razonamiento sobre especificaciones industriales.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05371" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔒</span>
+                    <h3 class="paper-title">BEAVER: Un Verificador Determinista y Eficiente para Modelos de Lenguaje Grandes</h3>
+                    <p class="paper-summary">📝 Introduce BEAVER, el primer marco práctico para calcular límites de probabilidad deterministas y sólidos (sound) sobre la satisfacción de restricciones en salidas de LLMs. Utiliza estructuras de datos novedosas (token trie y frontier) para explorar sistemáticamente el espacio de generación, proporcionando garantías sólidas en tareas de verificación de corrección, privacidad y generación de código seguro, ofreciendo límites mucho más ajustados que los métodos basados en muestreo.</p>
+                    <div class="paper-points">• Verificación determinista y sólida (sound) de salidas de LLMs. Provee cotas de probabilidad garantizadas
+•  no estimaciones muestrales. Identifica de 3 a 4 veces más instancias de alto riesgo que los métodos base con el mismo presupuesto computacional.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05439" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Las Semillas de la Conspiración: La Debilidad de la Voluntad en los Bloques Fundamentales de los Sistemas Agénticos</h3>
+                    <p class="paper-summary">📝 Propone el concepto filosófico de &#x27;acrasia&#x27; (debilidad de la voluntad) para analizar la inconsistencia y la deriva de objetivos en sistemas de IA agénticos. Introduce una versión preliminar del &#x27;Akrasia Benchmark&#x27; para medir cuándo la respuesta local de un modelo contradice sus compromisos previos. El trabajo conecta la inconsistencia a nivel de modelo individual con comportamientos potencialmente inestables o &#x27;conspirativos&#x27; en sistemas multi-agente.</p>
+                    <div class="paper-points">• Aplica el concepto filosófico de &#x27
+• acrasia&#x27
+•  al análisis de la inconsistencia en IA agéntica. Introduce un benchmark para medir la &#x27
+• debilidad de la voluntad&#x27
+•  en modelos de lenguaje. Relaciona la micro-acrasia con posibles comportamientos macro de &#x27
+• conspiración&#x27
+•  (scheming) en sistemas multi-agente.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05449" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧠</span>
+                    <h3 class="paper-title">MIND: Marco de Razonamiento Discriminativo Integrado Multi-Racional para Modelos Multimodales Grandes</h3>
+                    <p class="paper-summary">📝 Propone MIND, un marco de razonamiento discriminativo que dota a los MLLMs de habilidades cognitivas similares a las humanas de &#x27;Entender -&gt; Repensar -&gt; Corregir&#x27;. Incluye un paradigma de Aumento y Discriminación de Racionales (RAD) para expandir conjuntos de datos, una estrategia de Aprendizaje de Corrección en Dos Etapas (P2CL) y una optimización de Alineación Contrastiva Multi-Racional (MCA) para mejorar la robustez lógica y el rendimiento en diversos escenarios.</p>
+                    <div class="paper-points">• Evoluciona el razonamiento de los MLLMs de una imitación pasiva a uno activo y discriminativo. Genera automáticamente racionales diversos para aumentar datos. Logra rendimiento state-of-the-art en datasets científicos
+•  de sentido común y matemáticos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05530" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🏥</span>
+                    <h3 class="paper-title">CureAgent: Un Marco Ejecutor-Analista Sin Entrenamiento para el Razonamiento Clínico</h3>
+                    <p class="paper-summary">📝 Propone un marco Ejecutor-Analista modular y sin entrenamiento que decopla la ejecución precisa de herramientas (por &#x27;Executors&#x27; como TxAgents) del razonamiento semántico robusto (por &#x27;Analysts&#x27; con modelos de contexto largo). Mitiga el &#x27;Fallo de Utilización de Contexto&#x27; de los agentes clínicos monolíticos mediante una estrategia de Ensamble Estratificado y revela insights de escalado, como la &#x27;Paradoja Contexto-Rendimiento&#x27;, logrando rendimiento state-of-the-art sin fine-tuning.</p>
+                    <div class="paper-points">• Arquitectura modular Ejecutor-Analista que requiere cero entrenamiento. Soluciona el &#x27
+• Fallo de Utilización de Contexto&#x27
+•  de agentes clínicos pequeños. Descubre la &#x27
+• Paradoja Contexto-Rendimiento&#x27
+•  y logra SOTA en CURE-Bench de manera eficiente.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05576" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Aprendizaje de Ontologías con LLMs: Un Estudio Comparativo sobre Identificación de Axiomas</h3>
+                    <p class="paper-summary">📝 Investiga el uso de LLMs para automatizar la identificación de axiomas (relaciones lógicas como subclase, disyunción) en la construcción de ontologías. Introduce un benchmark, OntoAxiom, con 9 ontologías y 2.771 axiomas, evaluando 12 LLMs con diferentes estrategias de prompting. Encuentra que el enfoque &#x27;Axioma por Axioma&#x27; supera al &#x27;Directo&#x27;, que el rendimiento varía según el tipo de axioma y dominio, y que, aunque no es suficiente para una automatización completa, los LLMs pueden generar candidatos valiosos para apoyar a los ingenieros de ontologías.</p>
+                    <div class="paper-points">• Introduce el benchmark OntoAxiom para evaluar la identificación de axiomas con LLMs. Compara estrategias de prompting (&#x27
+• Directo&#x27
+•  vs. &#x27
+• Axioma por Axioma&#x27
+• ). Concluye que los LLMs son asistentes valiosos
+•  pero no reemplazan
+•  a los ingenieros de ontologías.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05594" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Mejora de la Búsqueda Local para MaxSAT con Ponderación de Cláusulas de Diferenciación Profunda</h3>
+                    <p class="paper-summary">📝 Se presenta DeepDist, un nuevo esquema de ponderación de cláusulas que actualiza los pesos de las instancias PMS y WPMS con condiciones distintas, incluyendo un nuevo método de inicialización y una técnica de decimación. El solucionador SLS resultante supera a los mejores solucionadores actuales y, en un híbrido, supera a los ganadores de la MaxSAT Evaluation 2024.</p>
+                    <div class="paper-points">• Esquema de ponderación diferenciado para PMS/WPMS
+•  método de inicialización adaptado
+•  decimación para cláusulas unitarias y duras
+•  solucionador DeepDist con rendimiento superior.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05619" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">KANFormer para Predecir Probabilidades de Ejecución mediante Análisis de Supervivencia en Libros de Órdenes Límite</h3>
+                    <p class="paper-summary">📝 Se introduce KANFormer, un modelo que predice el tiempo de ejecución de órdenes límite combinando una red convolucional causal dilatada con un codificador Transformer y Redes de Kolmogorov-Arnold (KAN). Integra información de mercado y de agentes, superando a modelos existentes en calibración y discriminación.</p>
+                    <div class="paper-points">• Modelo híbrido (convolucional + Transformer + KAN)
+•  uso de información de agentes y posición en la cola
+•  mejor rendimiento en métricas de calibración y discriminación
+•  análisis de importancia de características con SHAP.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05734" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Un Algoritmo Rápido de Despliegue de Radar Cognitivo Anti-Interferencias Basado en Aprendizaje por Refuerzo</h3>
+                    <p class="paper-summary">📝 Se propone FARDA, un nuevo marco basado en aprendizaje por refuerzo profundo para el despliegue rápido y eficiente de radares cognitivos contra interferencias. El modelo percibe información de mapas de calor y logra una cobertura comparable a los algoritmos evolutivos, pero aproximadamente 7000 veces más rápido.</p>
+                    <div class="paper-points">• Modelado como tarea de extremo a extremo con DRL
+•  módulos neuronales para percibir mapas de calor
+•  nuevo formato de recompensa
+•  velocidad de despliegue miles de veces superior manteniendo cobertura.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05753" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Razonamiento Evolutivo del Sistema 2: Una Prueba Empírica</h3>
+                    <p class="paper-summary">📝 Se propone el marco ERO (Optimización de Razonamiento Evolutivo), que aplica &#x27;supervivencia del más apto&#x27; sobre una población de LLMs para evolucionar y maximizar su capacidad de razonamiento. Se descubre que modelos débiles pueden emerger habilidades de razonamiento poderosas mediante este proceso.</p>
+                    <div class="paper-points">• Marco evolutivo (ERO) para mejorar el razonamiento
+•  descubrimiento de capacidad limitada de razonamiento del Sistema 2 en LLMs actuales
+•  potenciación de un modelo débil (Qwen-7B) mediante evolución.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05760" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">La Capa Faltante de la AGI: De la Alquimia de Patrones a la Física de la Coordinación</h3>
+                    <p class="paper-summary">📝 Se argumenta que el cuello de botella para la AGI en los LLMs no es el reconocimiento de patrones (Sistema-1), sino la falta de una capa de coordinación del Sistema-2. Se formaliza esta capa con la teoría UCCT y se traduce a la arquitectura MACI, que implementa debate, juicio socrático y memoria transaccional.</p>
+                    <div class="paper-points">• Identificación del problema como falta de capa de coordinación (Sistema-2)
+•  teoría UCCT para modelar razonamiento como transición de fase
+•  arquitectura MACI (debate
+•  juicio
+•  memoria)
+•  defensa de los LLMs como camino hacia la AGI.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05765" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Agente Oncológico Multimodal para la Predicción de la Mutación IDH1 en Glioma de Bajo Grado</h3>
+                    <p class="paper-summary">📝 Se introduce un Agente Oncológico Multimodal (MOA) que integra un modelo fundacional de histología (TITAN) con razonamiento sobre datos clínicos/genómicos y consultas a fuentes externas (PubMed, Google, OncoKB) para predecir mutaciones IDH1. El MOA fusionado con histología logra el mayor rendimiento (F1=0.912).</p>
+                    <div class="paper-points">• Agente multimodal que combina histología
+•  datos clínicos/ genómicos y búsqueda externa
+•  uso del modelo fundacional TITAN
+•  rendimiento superior a líneas de base clínicas e histológicas solas
+•  información complementaria de fuentes biomédicas.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05824" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Uso de Modelos de Lenguaje Grandes para Crear Redes Personalizadas a partir de Sesiones de Terapia</h3>
+                    <p class="paper-summary">📝 Se presenta un pipeline automatizado que utiliza LLMs para generar redes psicológicas personalizadas a partir de transcripciones de terapia. El método identifica procesos y dimensiones psicológicas, los agrupa en clústeres y genera relaciones explicativas, siendo preferido por expertos por su utilidad clínica.</p>
+                    <div class="paper-points">• Pipeline de extremo a extremo para redes personalizadas
+•  aprendizaje en contexto para identificar procesos psicológicos
+•  agrupación en clústeres clínicamente significativos
+•  alta preferencia y calificación de expertos en utilidad clínica.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05836" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Errar es Humano: Cuantificación Sistemática de Errores en Artículos de IA Publicados mediante Análisis con LLM</h3>
+                    <p class="paper-summary">📝 Se desarrolla un Verificador de Corrección de Artículos basado en GPT-5 para identificar errores objetivos (fórmulas, cálculos, figuras) en artículos de IA publicados. Se observa un aumento de errores a lo largo del tiempo y el verificador logra una precisión del 83.2%, proponiendo correcciones para la mayoría.</p>
+                    <div class="paper-points">• Verificador de errores objetivos con GPT-5
+•  aumento cuantificado de errores en conferencias principales
+•  precisión del 83.2% confirmada por expertos
+•  capacidad de proponer correcciones
+•  potencial para mejorar la reproducibilidad.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05925" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">PRiSM: Un Benchmark Agéntico y Multimodal para el Razonamiento Científico mediante Evaluación Fundamentada en Python</h3>
+                    <p class="paper-summary">📝 Se introduce PRiSM, un benchmark dinámico y sintético con más de 24,750 problemas de física y matemáticas a nivel universitario. Genera figuras dinámicas y utiliza código Python ejecutable como verdad fundamental para una evaluación granular de las capacidades de razonamiento científico de los VLMs.</p>
+                    <div class="paper-points">• Benchmark dinámico y multimodal para razonamiento científico
+•  generación automática de verdad fundamental con Python
+•  más de 24K problemas
+•  pipeline agéntico (PrismAgent)
+•  cinco tareas de evaluación para auditar VLMs.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05930" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">TRACE: Un Marco para Analizar y Mejorar el Razonamiento Paso a Paso en Modelos de Visión-Lenguaje</h3>
+                    <p class="paper-summary">📝 Se presenta TRACE, un marco de evaluación que diagnostica las trayectorias de razonamiento (no solo la respuesta final) de los VLMs. Utiliza Conjuntos de Razonamiento Auxiliares (ARS) para descomponer problemas y evaluar pasos intermedios mediante métricas de consistencia, identificando fallos silenciosos.</p>
+                    <div class="paper-points">• Evaluación de trayectorias de razonamiento (no solo respuestas)
+•  uso de Conjuntos de Razonamiento Auxiliares (ARS)
+•  métricas de consistencia para pasos intermedios
+•  regiones de confianza para filtrar razonamientos no confiables.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05943" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Red de Q Profunda Cuántica Variacional Arcoíris para Optimizar el Problema de Asignación de Recursos</h3>
+                    <p class="paper-summary">📝 Se presenta VQR-DQN, que integra circuitos cuánticos variacionales con la arquitectura Rainbow DQN para optimizar la asignación de recursos humanos, un problema NP-hard. En cuatro benchmarks, el método logra una reducción del 26.8% en el makespan normalizado y supera a los métodos clásicos entre un 4.9% y un 13.4%. Esto demuestra el potencial del aprendizaje por refuerzo profundo mejorado cuánticamente para asignación de recursos a gran escala.</p>
+                    <div class="paper-points">• Integración de circuitos cuánticos variacionales con Rainbow DQN
+•  Enfoque del problema de asignación de recursos humanos como un MDP
+•  Reducción significativa del makespan y superación de métodos clásicos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05946" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧪</span>
+                    <h3 class="paper-title">SymPyBench: Un Benchmark Dinámico para Razonamiento Científico con Código Python Ejecutable</h3>
+                    <p class="paper-summary">📝 Se introduce SymPyBench, un benchmark sintético a gran escala con 15,045 problemas de física universitaria. Cada problema está parametrizado, viene con razonamiento paso a paso y código Python ejecutable que produce la solución correcta. El benchmark incluye tres tipos de preguntas y tres nuevas métricas de evaluación (Puntuación de Consistencia, Tasa de Falla, Tasa de Confusión) para cuantificar la variabilidad en las respuestas de los modelos.</p>
+                    <div class="paper-points">• Benchmark dinámico de 15k problemas de física con código ejecutable
+•  Problemas totalmente parametrizados y con razonamiento estructurado
+•  Introducción de nuevas métricas para evaluar la robustez del razonamiento científico.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05954" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="category" data-category="Ingeniería de Software">
+            <div class="category-header">
+                <span style="font-size: 1.5rem;">📄</span>
+                <h2 class="category-title">Ingeniería de Software</h2>
+                <span class="category-count">22</span>
+            </div>
+            
+            <div class="papers-grid">
+
+                <article class="paper-card">
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">Stellis: Un lenguaje de estrategia para purificar implicaciones de lógica de separación</h3>
+                    <p class="paper-summary">📝 Presenta Stellis, un lenguaje de estrategia para purificar implicaciones de lógica de separación, eliminando fórmulas espaciales para reducirlas a implicaciones puras. Cuenta con un mecanismo de emparejamiento potente y genera condiciones de solidez para cada estrategia.</p>
+                    <div class="paper-points">• Lenguaje para automatizar pruebas en lógica de separación. Generación automática de condiciones de solidez. Purificó el 95.6% de 229 implicaciones en la evaluación. Aplicado en estructuras de datos y un microkernel.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05159" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -416,10 +1830,13 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">🌍 Hacia un Benchmark de Calidad para la Inteligencia Cultural e Inferencia de Valores sobre Valores Comunitarios y Conocimiento Común</h3>
-                    <p class="paper-summary"></p>
-                    <div class="paper-points">• Replica el proceso de KorNAT (benchmark coreano) para el contexto estadounidense. Enfoque en alineación con comunidades y experiencias marginadas. Busca llenar el vacío en evaluación de LLMs culturalmente informados. Fundación para investigación en alineación cultural de IA.</div>
+                    <span class="paper-emoji">🤝</span>
+                    <h3 class="paper-title">Hacia un benchmark de calidad para inferencia de valores e inteligencia cultural sobre valores comunitarios y conocimiento común</h3>
+                    <p class="paper-summary">📝 Propone CIVIQ, un benchmark para evaluar la alineación de LLMs con valores sociales y conocimiento común de comunidades específicas, enfocado en el contexto de EE.UU. Busca llenar el vacío de representación más allá de narrativas mayoritarias occidentales.</p>
+                    <div class="paper-points">• Réplica del proceso para crear KorNAT (benchmark coreano). Benchmark para alineación cultural en LLMs (&#x27
+• culturally-informed&#x27
+• ). Enfocado en comunidades dentro de EE.UU.
+•  no a nivel nacional. Fundación para desarrollo de IA culturalmente alineada.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05176" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -429,10 +1846,10 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">🐛 Una Revisión de Errores en Código Generado por IA</h3>
-                    <p class="paper-summary">📝 Realiza una revisión sistemática de la literatura sobre errores en código generado por IA. Clasifica los tipos y patrones de errores, analiza su correlación con modelos específicos y discute posibles estrategias de remediación para mejorar la calidad del código generado.</p>
-                    <div class="paper-points">• Revisión sistemática de bugs en código generado por IA. Clasificación de tipos y distribución de errores. Discusión de estrategias de mitigación y corrección. Referencia para mejora de modelos y evaluación de calidad.</div>
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">Un estudio de los errores en el código generado por IA</h3>
+                    <p class="paper-summary">📝 Realiza una revisión sistemática de la literatura para establecer una comprensión general de los errores y defectos en el código generado por IA. Clasifica los tipos de errores, su distribución, posibles estrategias de remediación y su correlación con modelos específicos.</p>
+                    <div class="paper-points">• Revisión sistemática de errores en código generado por IA. Clasificación de tipos y patrones de errores. Discute estrategias de mitigación y corrección. Referencia para mejora de modelos y evaluación de calidad.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05239" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -442,10 +1859,10 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">👨‍🏫 Aprender a Programar con Contexto: Un Enfoque Basado en Estudio</h3>
-                    <p class="paper-summary">📝 Presenta un estudio de usuario en un curso universitario de desarrollo de videojuegos para investigar el uso de herramientas de IA generativa. Examina un asistente LLM con conocimiento del repositorio (usando RAG) que proporciona soporte contextualizado al proyecto.</p>
-                    <div class="paper-points">• Estudio del uso de IA generativa en educación en ingeniería de software. Análisis de tareas efectivas y desafíos encontrados. Diseño y evaluación de un asistente LLM con RAG para contexto de proyecto. Informa la integración futura de IA en planes de estudio.</div>
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">Aprender a programar con contexto: Un enfoque basado en estudio</h3>
+                    <p class="paper-summary">📝 Estudia el uso de herramientas de IA generativa en un curso universitario de desarrollo de videojuegos. Examina un asistente de LLM desplegado localmente con RAG que proporciona soporte contextualizado al proyecto, analizando su comportamiento y modos de fallo.</p>
+                    <div class="paper-points">• Estudio del uso de IA en educación en ingeniería de software. Asistente LLM con RAG para contexto de proyecto. Análisis cualitativo de sensibilidad a parámetros y fallos. Informa la integración de IA en currículos.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05242" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -455,12 +1872,11 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">🧐 Participación en Revisión de Código: Dimensiones Emocionales, Conductuales y Cognitivas en Interacciones entre Pares vs. con LLMs</h3>
-                    <p class="paper-summary">📝 Estudio cualitativo que compara la participación en revisiones de código asistidas por LLMs frente a revisiones entre pares humanos. Desarrolla un modelo integrador que vincula la autorregulación emocional con la participación conductual y la resolución de problemas.</p>
-                    <div class="paper-points">• Modelo integrador de participación en revisión de código. Estrategias de autorregulación emocional (reencuadre
-•  evitación
-•  etc.). La revisión con LLM reduce la carga emocional y cognitiva. La IA es mejor como socio de apoyo que como reemplazo humano total.</div>
+                    <span class="paper-emoji">💻</span>
+                    <h3 class="paper-title">Participación en revisión de código: Dimensiones emocionales, conductuales y cognitivas en interacciones entre pares vs. con LLMs</h3>
+                    <p class="paper-summary">📝 Estudio cualitativo que compara la revisión de código asistida por LLMs con la revisión entre pares humanos. Desarrolla un modelo integrador que vincula la autorregulación emocional con la participación conductual y la resolución de problemas.</p>
+                    <div class="paper-points">• Identifica estrategias de autorregulación emocional ante feedback negativo. La revisión con LLMs reduce la carga cognitiva y emocional. La IA redirige la participación de la gestión emocional a la gestión cognitiva. La IA es mejor como socio de apoyo
+•  no como reemplazo.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05309" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -470,12 +1886,11 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">📱 WhatsCode: Despliegue a Gran Escala de GenAI para la Eficiencia de los Desarrolladores en WhatsApp</h3>
-                    <p class="paper-summary">📝 Reporta el despliegue industrial de WhatsCode, un sistema de desarrollo con IA específico de dominio para WhatsApp. Logró impacto cuantificable en verificación de privacidad, generación de cambios de código y refactorización automática, destacando patrones estables de colaboración humano-IA.</p>
-                    <div class="paper-points">• Despliegue a gran escala en un entorno industrial con requisitos de cumplimiento. Impacto medible: 3
-• 000+ cambios de código aceptados
-•  mejora 3.5x en cobertura de verificación de privacidad. Identifica dos patrones de colaboración humano-IA. Factores organizacionales son decisivos para el éxito.</div>
+                    <span class="paper-emoji">🔒</span>
+                    <h3 class="paper-title">WhatsCode: Despliegue de GenAI a gran escala para eficiencia de desarrolladores en WhatsApp</h3>
+                    <p class="paper-summary">📝 Reporta el despliegue industrial de WhatsCode, un sistema de desarrollo con IA específico de dominio en WhatsApp. Mejoró la cobertura de verificación de privacidad, generó miles de cambios de código aceptados y reveló patrones estables de colaboración humano-IA.</p>
+                    <div class="paper-points">• Despliegue industrial a gran escala (25 meses). Impacto cuantificable en privacidad
+•  refactorización y desarrollo. Identifica dos patrones de colaboración humano-IA. Factores organizacionales son decisivos para el éxito.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05314" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -485,13 +1900,14 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">🔍</span>
+                    <span class="paper-emoji">🔬</span>
                     <h3 class="paper-title">Carga Invisible: Descubriendo los Desafíos de las Mujeres Neurodivergentes en la Ingeniería de Software</h3>
-                    <p class="paper-summary">📝 Examina los retos únicos que enfrentan las mujeres neurodivergentes en la Ingeniería de Software, en la intersección del sesgo de género y las diferencias neurológicas. Propone un enfoque metodológico híbrido que integra marcos de inclusividad con procesos de evaluación, adaptado a este contexto específico. Sintetiza los desafíos en categorías cognitivas, sociales, organizacionales y de progreso profesional.</p>
-                    <div class="paper-points">• Interseccionalidad de género y neurodivergencia
+                    <p class="paper-summary">📝 Examina los desafíos únicos que enfrentan las mujeres neurodivergentes en la ingeniería de software, en la intersección del sesgo de género y las diferencias neurológicas. Propone un enfoque metodológico híbrido que integra marcos de inclusividad y procesos de revisión, estructurado en tres etapas: revisión de literatura, derivación de personajes y aplicación en talleres colaborativos.</p>
+                    <div class="paper-points">• Desafíos cognitivos
+•  sociales y organizacionales
 •  subdiagnóstico y enmascaramiento
-•  propuesta de método inclusivo
-•  síntesis de desafíos desde revisión literaria.</div>
+•  metodología inclusiva propuesta
+•  brecha en la investigación existente.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05350" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -502,12 +1918,12 @@
 
                 <article class="paper-card">
                     <span class="paper-emoji">🔒</span>
-                    <h3 class="paper-title">BGPFuzz: Fuzzing Automatizado de Configuración del Protocolo de Puerta de Enlace Fronteriza</h3>
-                    <p class="paper-summary">📝 Presenta BGPFuzz, un framework de fuzzing con conciencia estructural y con estado para mutar sistemáticamente configuraciones BGP y evaluar sus efectos en redes virtualizadas. Detecta anomalías mediante oráculos de ejecución que capturan síntomas prácticos como reinicios de sesión y redirección de tráfico, sin depender de propiedades de corrección predefinidas. Demuestra su capacidad para reproducir fallos conocidos como violaciones de prefijos máximos.</p>
-                    <div class="paper-points">• Fuzzing de configuraciones de red BGP
-•  detección de anomalías mediante oráculos de tiempo de ejecución
-•  reproducibilidad de fallos de red conocidos
-•  enfoque sin propiedades de corrección estáticas.</div>
+                    <h3 class="paper-title">BGPFuzz: Pruebas de Fuzzing Automatizado de Configuración para el Protocolo de Puerta de Enlace Fronteriza</h3>
+                    <p class="paper-summary">📝 Presenta BGPFuzz, un framework de fuzzing con estructura y estado que muta configuraciones BGP para identificar errores de configuración en redes virtualizadas. Detecta anomalías a través de oráculos de tiempo de ejecución, sin necesidad de propiedades de corrección predefinidas, capturando síntomas como restablecimientos de sesión y redirección de tráfico.</p>
+                    <div class="paper-points">• Fuzzing consciente del estado para BGP
+•  detección de errores de configuración
+•  reproducción de fallos conocidos
+•  enfoque basado en síntomas prácticos.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05358" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -518,13 +1934,12 @@
 
                 <article class="paper-card">
                     <span class="paper-emoji">🤖</span>
-                    <h3 class="paper-title">Modernización de Legados con IA: Modernización de Mainframes</h3>
-                    <p class="paper-summary">📝 Explora el uso de la Inteligencia Artificial para modernizar sistemas legacy de mainframe, transformándolos en arquitecturas flexibles, escalables e inteligentes. Describe estrategias impulsadas por IA como refactorización automática de código, migración de datos con herramientas inteligentes y mantenimiento predictivo. La integración de IA facilita la transición a microservicios, entornos contenedorizados y plataformas en la nube híbrida.</p>
-                    <div class="paper-points">• Uso de IA para modernizar sistemas mainframe
-•  automatización de refactorización y migración
-•  transición a arquitecturas modernas (microservicios
-•  nube)
-•  reducción de costos y dependencia de habilidades escasas.</div>
+                    <h3 class="paper-title">Modernización de Legado con IA – Modernización de Mainframes</h3>
+                    <p class="paper-summary">📝 Explora el uso de la IA para modernizar sistemas mainframe heredados, abordando altos costos de mantenimiento y escasez de habilidades. Las estrategias incluyen refactorización de código automatizada, migración de datos con herramientas inteligentes y mantenimiento predictivo para facilitar la transición a microservicios y plataformas en la nube.</p>
+                    <div class="paper-points">• Modernización de mainframes con IA
+•  refactorización y migración automatizadas
+•  integración con la nube
+•  mejora de la resiliencia del sistema.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05375" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -535,12 +1950,12 @@
 
                 <article class="paper-card">
                     <span class="paper-emoji">🧬</span>
-                    <h3 class="paper-title">Fuzzing del Cerebro: Pruebas de Estrés Automatizadas para la Seguridad de la Neuroestimulación Guiada por ML</h3>
-                    <p class="paper-summary">📝 Adapta la técnica de pruebas de software &#x27;fuzzing guiado por cobertura&#x27; al dominio de la estimulación neural para evaluar la seguridad de los modelos de aprendizaje automático en neuroprótesis. El marco perturba las entradas del modelo y rastrea si la estimulación resultante viola límites biofísicos como la densidad de carga o la corriente instantánea. Reformula la evaluación de seguridad como un proceso empírico y reproducible para interfaces neurales de última generación.</p>
-                    <div class="paper-points">• Aplicación de fuzzing a sistemas de neuroestimulación
+                    <h3 class="paper-title">Fuzzing del cerebro: Pruebas de Estrés Automatizadas para la Seguridad de la Neuroestimulación Basada en Aprendizaje Automático</h3>
+                    <p class="paper-summary">📝 Adapta la técnica de fuzzing guiado por cobertura al dominio de la neuroestimulación para probar la seguridad de los modelos de IA que generan patrones de estimulación. Perturba las entradas del modelo para detectar violaciones de límites biofísicos, como densidad de carga y activación simultánea de electrodos, en prótesis visuales.</p>
+                    <div class="paper-points">• Fuzzing para seguridad en neuroestimulación
 •  detección de patrones de estimulación inseguros
 •  métricas de cobertura de violaciones
-•  evaluación de seguridad empírica y reproducible para regulación.</div>
+•  evaluación empírica y reproducible.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05383" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -550,13 +1965,13 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">⚖️ Bita: Un Asistente Conversacional para Pruebas de Equidad (Fairness)</h3>
-                    <p class="paper-summary">📝 Introduce a Bita, un asistente conversacional diseñado para ayudar a los evaluadores de software a detectar posibles fuentes de sesgo en sistemas de IA, evaluar planes de prueba desde una perspectiva de equidad y generar charters de prueba exploratoria. Integra un modelo de lenguaje grande con generación aumentada por recuperación (RAG), fundamentando sus respuestas en literatura especializada sobre equidad. Valida su utilidad en tareas de prueba de equidad en sistemas de IA del mundo real.</p>
-                    <div class="paper-points">• Asistente conversacional para pruebas de equidad (fairness testing)
-•  integración de LLM con RAG
-•  apoyo accesible y sistemático para flujos de trabajo industriales
-•  generación de evidencia reproducible.</div>
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Bita: Un Asistente Conversacional para Pruebas de Equidad</h3>
+                    <p class="paper-summary">📝 Introduce Bita, un asistente conversacional que ayuda a los evaluadores de software a detectar sesgos en sistemas de IA. Integra un modelo de lenguaje grande con generación aumentada por recuperación (RAG) para fundamentar sus respuestas en literatura sobre equidad, apoyando tareas como la evaluación de planes de prueba y la generación de charters de prueba exploratoria.</p>
+                    <div class="paper-points">• Asistente conversacional para pruebas de equidad
+•  integración de LLM y RAG
+•  apoyo a flujos de trabajo reales
+•  validación en sistemas de IA del mundo real.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05428" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -566,13 +1981,13 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">🧪</span>
-                    <h3 class="paper-title">Model Gateway: Plataforma de Gestión de Modelos para el Descubrimiento de Fármacos Guiado por Modelos</h3>
-                    <p class="paper-summary">📝 Presenta Model Gateway, una plataforma para gestionar modelos de aprendizaje automático y computacionales científicos en el pipeline de descubrimiento de fármacos. Soporta Agentes LLM y herramientas de IA Generativa para realizar tareas de gestión de modelos en pipelines MLOps. Incluye un Panel de Control, Herramientas de Administración y un servicio API, logrando una tasa de fallos del 0% en pruebas de escalabilidad.</p>
-                    <div class="paper-points">• Plataforma de gestión de modelos para descubrimiento de fármacos
-•  integración con Agentes LLM e IA Generativa
-•  operaciones MLOps
-•  escalabilidad probada con más de 10k clientes simultáneos.</div>
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Model Gateway: Plataforma de Gestión de Modelos para el Descubrimiento de Fármacos Basado en Modelos</h3>
+                    <p class="paper-summary">📝 Presenta Model Gateway, una plataforma para gestionar modelos de aprendizaje automático y computacionales en el proceso de descubrimiento de fármacos. Soporta Agentes LLM y herramientas de IA Generativa para tareas de MLOps, como el consenso dinámico de modelos, registro, ejecución asíncrona y recuperación de resultados.</p>
+                    <div class="paper-points">• Plataforma de gestión de modelos para farmacología
+•  integración de Agentes LLM y IA Generativa
+•  operaciones de MLOps
+•  escalabilidad probada.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05462" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -582,13 +1997,13 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">💾</span>
-                    <h3 class="paper-title">Todo es Contexto: Abstracción de Sistema de Archivos Agéntico para la Ingeniería de Contexto</h3>
-                    <p class="paper-summary">📝 Propone una abstracción de sistema de archivos para la ingeniería de contexto en sistemas de IA Generativa, inspirada en la noción Unix de que &#x27;todo es un archivo&#x27;. Ofrece una infraestructura persistente y gobernada para gestionar artefactos de contexto heterogéneos. Implementada en el framework de código abierto AIGNE, establece una base reutilizable para la colaboración humano-IA verificable y centrada en el humano.</p>
-                    <div class="paper-points">• Abstracción de sistema de archivos para gestión de contexto
-•  infraestructura persistente y gobernada
-•  pipeline de ingeniería de contexto verificable
-•  colaboración humano-IA centrada en la rendición de cuentas.</div>
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Todo es Contexto: Abstracción de Sistema de Archivos Agéntica para la Ingeniería de Contexto</h3>
+                    <p class="paper-summary">📝 Propone una abstracción de sistema de archivos para la ingeniería de contexto en sistemas de IA Generativa, gestionando de manera persistente y gobernada artefactos de contexto heterogéneos. Implementada en el framework AIGNE, proporciona una tubería verificable para ensamblar, cargar y validar contexto bajo restricciones de tokens, apoyando la colaboración humano-IA.</p>
+                    <div class="paper-points">• Abstracción de sistema de archivos para contexto
+•  gestión persistente y gobernada
+•  tubería de ingeniería de contexto verificable
+•  arquitectura centrada en el humano.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05470" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -600,11 +2015,11 @@
                 <article class="paper-card">
                     <span class="paper-emoji">💻</span>
                     <h3 class="paper-title">Un Enfoque Híbrido para la Generación de Código EMF: Plantillas de Código Encuentran Modelos de Lenguaje Grande</h3>
-                    <p class="paper-summary">📝 Propone iEcoreGen, un enfoque híbrido que integra el Eclipse Modeling Framework (EMF) con LLMs para la generación automática de código. Descompone requisitos, usa generadores basados en plantillas de EMF para producir código Java inicial, y luego invoca LLMs para completar y corregir métodos no implementados. Evalúa el enfoque en veinte tareas de generación de código, superando a los baselines de solo LLM en métricas de éxito.</p>
-                    <div class="paper-points">• Generación híbrida de código (EMF + LLMs)
-•  combinación de garantías de corrección con flexibilidad
-•  descomposición de requisitos y uso de docstrings
-•  mejora sobre enfoques puramente basados en LLMs.</div>
+                    <p class="paper-summary">📝 Presenta iEcoreGen, un enfoque híbrido que combina el framework de modelado EMF (Eclipse Modeling Framework) con LLMs para la generación de código Java. Utiliza plantillas EMF para generar código inicial basado en especificaciones y luego invoca LLMs para completar y corregir métodos no implementados, logrando un equilibrio entre corrección y flexibilidad.</p>
+                    <div class="paper-points">• Generación de código híbrida (EMF + LLMs)
+•  descomposición de requisitos
+•  plantillas para corrección inicial
+•  LLMs para completar métodos.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05498" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -616,11 +2031,11 @@
                 <article class="paper-card">
                     <span class="paper-emoji">🤖</span>
                     <h3 class="paper-title">IA Generativa en Entornos de Pruebas Basados en Simulación para Sistemas Ciberfísicos a Gran Escala: Un Estudio Industrial</h3>
-                    <p class="paper-summary">📝 Captura las perspectivas de profesionales sobre el uso de IA Generativa en pruebas basadas en simulación para sistemas ciberfísicos a gran escala, basándose en un taller con seis organizaciones. Identifica desafíos y propone una agenda de investigación con tres direcciones prioritarias: modelos de entorno y escenarios generados por IA, simuladores e IA en pipelines CI/CD, y confiabilidad en IA Generativa para simulación. Destaca el potencial y los desafíos sin resolver.</p>
+                    <p class="paper-summary">📝 Estudia las perspectivas de profesionales industriales sobre el uso de IA Generativa en pruebas basadas en simulación para sistemas ciberfísicos complejos. Identifica desafíos y propone una agenda de investigación con tres direcciones prioritarias: generación de escenarios y modelos ambientales, integración en pipelines CI/CD, y garantía de confiabilidad.</p>
                     <div class="paper-points">• Estudio industrial sobre IA Generativa en pruebas de simulación
 •  identificación de desafíos prácticos
-•  agenda de investigación con tres direcciones prioritarias
-•  adopción responsable en colaboración academia-industria.</div>
+•  agenda de investigación priorizada
+•  colaboración academia-industria.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05507" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -630,15 +2045,95 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">📄</span>
-                    <h3 class="paper-title">🔄 Del Desafío al Cambio: Principios de Diseño para Transformaciones de IA</h3>
-                    <p class="paper-summary">📝 Propone un framework de adopción de IA centrado en lo humano e informado por la Ingeniería de Software Conductual (BSE) para organizaciones de SE. Desarrollado mediante una revisión literaria y análisis de entrevistas, comprende nueve dimensiones (como Diseño de Estrategia de IA, Colaboración y Capacitación) respaldadas por principios de diseño y acciones. Una encuesta preliminar destaca la Capacitación y el Diseño de Estrategia como las dimensiones percibidas como más importantes.</p>
-                    <div class="paper-points">• Framework humano-céntrico para adopción temprana de IA
-•  nueve dimensiones de cambio organizacional
-•  principios de diseño y acciones concretas
-•  importancia percibida de la capacitación y la estrategia.</div>
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Del Desafío al Cambio: Principios de Diseño para Transformaciones de IA</h3>
+                    <p class="paper-summary">📝 Propone un marco centrado en el humano, inspirado en la Ingeniería de Software Conductual (BSE), para guiar a las organizaciones en la adopción temprana de IA. El marco consta de nueve dimensiones (como Estrategia de IA, Colaboración y Capacitación) respaldadas por principios de diseño y acciones, basadas en una revisión de literatura y análisis de entrevistas.</p>
+                    <div class="paper-points">• Marco humano-céntrico para adopción de IA
+•  nueve dimensiones conductuales
+•  principios de diseño accionables
+•  validación con encuesta y talleres.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05533" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Asignaciones Automatizadas de Revisión de Código: Una Perspectiva Alternativa de la Propiedad del Código en GitHub</h3>
+                    <p class="paper-summary">📝 Estudia la adopción y el uso de la función CODEOWNERS de GitHub para designar revisores automáticamente en repositorios de código. Mediante el análisis de más de 844,000 pull requests, se encontró que esta herramienta redistribuye las responsabilidades de revisión, alejándolas de los desarrolladores principales, y contribuye a un flujo de trabajo más fluido y rápido.</p>
+                    <div class="paper-points">• Primer estudio a gran escala del uso de CODEOWNERS. Los propietarios del código tienden a seguir las reglas y muestran comportamientos colaborativos. La adopción de CODEOWNERS cambia la dinámica de las revisiones y mejora la gobernanza del software.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05551" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⚙️ Ejecución de Especificaciones Declarativas de Procesos Discretos/Continuos mediante Procesamiento de Eventos Complejos</h3>
+                    <p class="paper-summary">📝 Propone una nueva arquitectura de ejecución basada en Procesamiento de Eventos Complejos (CEP) para modelos híbridos declarativos, que combinan eventos discretos y señales continuas (usando Lógica Temporal de Señales). Este enfoque permite la ejecución y aplicación en tiempo real de restricciones de procesos en entornos ciberfísicos.</p>
+                    <div class="paper-points">• Cierra la brecha entre la especificación híbrida y el control operativo. Integra predicados inspirados en STL en el flujo de ejecución. Permite activar actividades y hacer cumplir límites de procesos basados en el comportamiento de sensores continuos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05653" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⏱️ Metronome: Planificación de Retraso Diferenciada para Funciones Serverless</h3>
+                    <p class="paper-summary">📝 Presenta Metronome, un marco de planificación que mejora la localidad de datos e infraestructura en entornos serverless (FaaS). Utiliza un modelo predictivo de regresión Random Forest para pronosticar tiempos de ejecución y tomar decisiones informadas de retraso, reduciendo significativamente el tiempo medio de ejecución sin violar los SLAs.</p>
+                    <div class="paper-points">• Supera a los métodos de planificación de retraso basados en reglas. Logra una reducción del 64.88% al 95.83% en el tiempo medio de ejecución. Adapta los umbrales de retraso de forma diferenciada según las características de cada función.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05703" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔍</span>
+                    <h3 class="paper-title">MicroRacer: Detección de Errores de Concurrencia para Sistemas de Servicios en la Nube</h3>
+                    <p class="paper-summary">📝 Propone MicroRacer, un framework no intrusivo y automatizado para detectar errores de concurrencia en sistemas de microservicios. Instrumenta bibliotecas en tiempo de ejecución para recopilar trazas y analizar relaciones &#x27;happened-before&#x27; y patrones de acceso a recursos, validando luego los errores sospechosos en un proceso de tres etapas.</p>
+                    <div class="paper-points">• Enfoque no intrusivo que no requiere modificar el código de la aplicación. Identifica operaciones concurrentes sospechosas mediante el análisis de trazas. Demuestra efectividad y eficiencia en benchmarks de microservicios de código abierto.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05716" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧪</span>
+                    <h3 class="paper-title">Generación de Fuzzers para Compiladores de Dialectos de Lenguaje de Bajos Recursos Usando Modelos de Lenguaje</h3>
+                    <p class="paper-summary">📝 Presenta Germinator, un enfoque para fuzzing de compiladores extensibles (como MLIR) que combina gramáticas extraídas automáticamente con Modelos de Lenguaje Grandes (LLMs) preentrenados. El método genera semillas de entrada diversas y representativas para impulsar fuzzers guiados por cobertura, mejorando la cobertura y encontrando nuevos errores.</p>
+                    <div class="paper-points">• Enfoque dialéctico-agnóstico y dialéctico-efectivo. Mejora la cobertura de líneas entre un 10% y un 120% sobre baselines gramaticales. Descubrió 88 errores previamente desconocidos en 91 dialectos de MLIR.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05887" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🐛 La Resumenización en Lenguaje Natural Permite la Localización de Errores Multi-Repositorio por LLMs en Arquitecturas de Microservicios</h3>
+                    <p class="paper-summary">📝 Propone un método que transforma código en resúmenes jerárquicos de lenguaje natural (NL) para localizar errores en arquitecturas de microservicios multi-repositorio. Usa una búsqueda de dos fases (NL-a-NL) para enrutar reportes de errores y localizar archivos específicos, superando a sistemas basados en RAG y agentes.</p>
+                    <div class="paper-points">• Supera a sistemas como GitHub Copilot y Cursor en métricas de precisión (Pass@10 de 0.82). Proporciona una ruta de búsqueda interpretable (repositorio -&gt
+•  directorio -&gt
+•  archivo). Evalúa el método en un sistema industrial con 46 repositorios y 1.1M de líneas de código.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05908" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
                         </a>
                         <span class="paper-date">2025-12-08</span>
@@ -648,10 +2143,166 @@
             </div>
         </section>
 
-        <section class="category" data-category="Computación Neural y Evolutiva">
+        <section class="category" data-category="Computadoras y Sociedad">
             <div class="category-header">
                 <span style="font-size: 1.5rem;">📄</span>
-                <h2 class="category-title">Computación Neural y Evolutiva</h2>
+                <h2 class="category-title">Computadoras y Sociedad</h2>
+                <span class="category-count">10</span>
+            </div>
+            
+            <div class="papers-grid">
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⚖️ La transformación digital de la justicia: ambiciones, realidades y perspectivas</h3>
+                    <p class="paper-summary">📝 Estudio de cuatro años que evalúa objetivamente el discurso y las representaciones de la transformación digital de la justicia, capitalizando testimonios de profesionales y la literatura disponible. Realizado con estudiantes de un máster en Ciberjusticia.</p>
+                    <div class="paper-points">• Evaluación objetiva de la transformación digital en el ámbito judicial. Basado en testimonios de profesionales y revisión literaria. Resultado de un ciclo académico largo con participación estudiantil especializada.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05143" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🏥</span>
+                    <h3 class="paper-title">Carrera contra el tiempo en la salud digital: Modelado de la Dinámica de Adopción de HCE e Impacto Regulatorio en la Atención Primaria de Indonesia</h3>
+                    <p class="paper-summary">📝 Investiga la adopción de Historias Clínicas Electrónicas (HCE) en Indonesia, impulsada por una regulación que manda su integración con la plataforma SATUSEHAT. Analiza la trayectoria, velocidad y factores de adopción en instalaciones de atención primaria, revelando un crecimiento constante pero una cuota de mercado aún baja.</p>
+                    <div class="paper-points">• La adopción de HCE muestra un crecimiento estable con una alta tasa de activación inmediata. Se observa un comportamiento de &#x27
+• carrera contra la fecha límite&#x27
+•  alrededor de los plazos regulatorios. La proyección a corto plazo estima una adopción acumulada de ~4
+• 000 clínicas para mediados de 2025.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05381" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🌍 Construyendo Capacidad para la Inteligencia Artificial en África: Una Encuesta Transnacional de Desafíos y Vías de Gobernanza</h3>
+                    <p class="paper-summary">📝 Estudia la preparación para la IA en cinco países africanos, identificando un amplio reconocimiento de su importancia pero un acceso desigual a la educación y formación práctica. Las barreras financieras, de infraestructura y de comunicación limitan la participación, especialmente de grupos subrepresentados.</p>
+                    <div class="paper-points">• Existe una brecha entre la conciencia del potencial de la IA y la capacidad real para desarrollarla. Las pasantías
+•  las asociaciones industria-universidad y los marcos de gobernanza inclusivos son facilitadores críticos. Se necesitan políticas para abordar barreras de acceso y financiación para un desarrollo equitativo.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05432" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🧠</span>
+                    <h3 class="paper-title">Conociendo Tu Incertidumbre: Sobre la aplicación de los LLM en las ciencias sociales</h3>
+                    <p class="paper-summary">📝 Propone un marco unificado para evaluar la incertidumbre de los LLMs cuando se aplican a tareas de ciencias sociales, combinando el tipo de tarea (clasificación, generación) con el tipo de validación (disponibilidad de datos de referencia). Ofrece recomendaciones prácticas para una investigación rigurosa.</p>
+                    <div class="paper-points">• La evaluación explícita de la incertidumbre es crucial para el uso científico de los LLMs. Introduce un marco tipológico bidimensional (Tipo de Tarea - Tipo de Validación) para mapear métodos de cuantificación de incertidumbre. Sirve como salvaguardia metodológica y guía práctica para investigadores en ciencias sociales.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05461" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📊</span>
+                    <h3 class="paper-title">La Topología de la Dificultad: Grafos Curriculares Empíricos y Cuellos de Botella Estructurales en los Títulos de Ingeniería</h3>
+                    <p class="paper-summary">📝 Introduce el concepto de &#x27;topología de la dificultad&#x27; para medir la complejidad estructural de los planes de estudio de ingeniería a partir de trayectorias estudiantiles empíricas. Muestra que la &#x27;dificultad&#x27; es una propiedad topológica medible, vinculada a tasas de abandono y retrasos.</p>
+                    <div class="paper-points">• La dificultad de un título de ingeniería puede cuantificarse como una propiedad topológica de su currículo. Un pequeño número de currículos con alta densidad estructural y cuellos de botella explica una parte desproporcionada del abandono. Los hallazgos tienen implicaciones para la reforma curricular y el diseño de políticas basadas en datos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05561" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">🔓 Datos Abiertos, Privacidad y Principios de Información Justa: Hacia un Marco de Equilibrio</h3>
+                    <p class="paper-summary">📝 Analiza el conflicto entre los beneficios de los datos abiertos gubernamentales y la protección de la privacidad. Propone un marco de equilibrio que considera diferentes niveles de riesgo, separa decisiones de acceso y reutilización, y presenta un catálogo de circunstancias para evaluar la publicación.</p>
+                    <div class="paper-points">• Los datos abiertos no son la única vía para publicar información gubernamental
+•  la divulgación de datos personales requiere un argumento de interés público sólido. El marco propuesto ayuda a las autoridades a tomar decisiones contextuales sobre la publicación de datos. Separa las decisiones de acceso de las de reutilización y destaca varias rutas de divulgación.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05728" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔒</span>
+                    <h3 class="paper-title">Consentimiento Informado: Podemos Hacerlo Mejor para Defender la Privacidad</h3>
+                    <p class="paper-summary">📝 Argumenta que la dependencia excesiva del &#x27;consentimiento informado&#x27; en las leyes de privacidad es ineficaz, dado el comportamiento de los usuarios. Aboga por un enfoque combinado que proteja al individuo (reglas proactivas) además de empoderarlo (consentimiento).</p>
+                    <div class="paper-points">• Los estudios conductuales muestran que el consentimiento informado es a menudo ineficaz para proteger la privacidad. Se necesitan más reglas que &#x27
+• protejan&#x27
+•  a las personas
+•  no solo que las &#x27
+• empoderen&#x27
+•  para tomar decisiones. Ilustra los problemas con las normas actuales de privacidad respecto a la publicidad conductual (behavioral targeting).</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05729" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🔒</span>
+                    <h3 class="paper-title">El mito del consentimiento informado: la protección de la privacidad en línea puede mejorar</h3>
+                    <p class="paper-summary">📝 Sostiene que es necesario replantear el enfoque para defender la privacidad en internet, ya que la dependencia del &#x27;consentimiento informado&#x27; es ineficaz. Propone un enfoque combinado de protección y empoderamiento del individuo, dando más peso a reglas que protejan proactivamente.</p>
+                    <div class="paper-points">• Crítica la efectividad del consentimiento informado como piedra angular de la protección de la privacidad. Las personas suelen aceptar cualquier solicitud sin una evaluación real
+•  lo que mina el propósito del consentimiento. Los legisladores deben priorizar normas que protejan a los usuarios
+•  complementando las que los empoderan.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05730" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">⚖️ Despliegue Interno en la Ley de IA de la UE</h3>
+                    <p class="paper-summary">📝 Analiza e interpreta los argumentos a favor y en contra de incluir el &#x27;despliegue interno&#x27; de sistemas de IA dentro del ámbito de aplicación de la Ley de IA de la Unión Europea. Examina vías interpretativas basadas en artículos específicos de la ley, incluyendo la excepción para I+D científica.</p>
+                    <div class="paper-points">• Analiza cuatro posibles vías interpretativas para que la Ley de IA de la UE se aplique a modelos de IA de despliegue interno. Examina en profundidad la compleja excepción para la investigación y desarrollo científico (Artículo 2(6)). Propone una interpretación coherente de varios artículos y considerandos clave de la ley.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05742" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+                <article class="paper-card">
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Daños de los LLM: Una Taxonomía y Discusión</h3>
+                    <p class="paper-summary">📝 Este estudio aborda las categorías de daño en torno a los Modelos de Lenguaje Grandes (LLMs) en el campo de la inteligencia artificial. Cubre cinco categorías de daños antes, durante y después del desarrollo de aplicaciones de IA: pre-desarrollo, salida directa, mal uso y aplicación maliciosa, y aplicación descendente. Subraya la necesidad de definir los riesgos del panorama actual para garantizar responsabilidad, transparencia y navegar los sesgos al adaptar los LLMs para aplicaciones prácticas.</p>
+                    <div class="paper-points">• Taxonomía de cinco categorías de daños de los LLMs
+•  Estrategias de mitigación y direcciones futuras
+•  Propuesta de un sistema de auditoría dinámica para un desarrollo responsable.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05929" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="category" data-category="Computación Neuronal y Evolutiva">
+            <div class="category-header">
+                <span style="font-size: 1.5rem;">📄</span>
+                <h2 class="category-title">Computación Neuronal y Evolutiva</h2>
                 <span class="category-count">4</span>
             </div>
             
@@ -659,9 +2310,9 @@
 
                 <article class="paper-card">
                     <span class="paper-emoji">🤖</span>
-                    <h3 class="paper-title">NeuromorphicRx: De Receptor Neural a Receptor Pulsante</h3>
-                    <p class="paper-summary">📝 Propone un receptor basado en Redes Neuronales Pulsantes (SNN) energéticamente eficiente para sistemas 5G-NR OFDM, llamado NeuromorphicRx. Reemplaza los bloques de estimación de canal, ecualización y desmapeo de símbolos, logrando un rendimiento similar a sus contrapartes ANN con un consumo energético 7.6 veces menor.</p>
-                    <div class="paper-points">• Receptor SNN para 5G-NR. Arquitectura híbrida SNN-ANN. Entrenamiento con gradiente sustituto. Generalización y robustez mediante entrenamiento consciente de cuantización. Gran eficiencia energética.</div>
+                    <h3 class="paper-title">NeuromorphicRx: De un receptor neuronal a uno por impulsos</h3>
+                    <p class="paper-summary">📝 Propone un receptor basado en Redes Neuronales de Picos (SNN) energéticamente eficiente para sistemas 5G-NR OFDM. Reemplaza bloques de estimación de canal, igualación y desmapeo de símbolos. Logra un rendimiento similar a redes neuronales artificiales con un consumo de energía 7.6 veces menor.</p>
+                    <div class="paper-points">• Receptor SNN para 5G. Arquitectura híbrida SNN-ANN para salidas suaves. Entrenamiento con gradiente sustituto. Alta generalización y robustez. Gran ahorro energético demostrado.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05246" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -671,12 +2322,10 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">🧠</span>
-                    <h3 class="paper-title">Liberando la Capacidad Temporal de las Redes Neuronales Pulsantes mediante Separación Espaciotemporal</h3>
-                    <p class="paper-summary">📝 Investiga el mecanismo de modelado temporal en SNNs y descubre una competencia por recursos espaciotemporales. Propone STSep, una red que desacopla el procesamiento espacial y temporal en ramas independientes, logrando un rendimiento superior en tareas de comprensión de video.</p>
-                    <div class="paper-points">• Análisis del papel de la propagación del potencial de membrana. Fenómeno contraintuitivo: remoción moderada mejora rendimiento. Propuesta de Red Espacio-Temporal Separable (STSep). Validación en datasets de video (Something-Something V2
-•  UCF101
-•  HMDB51).</div>
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">Liberando la capacidad temporal de las redes neuronales de picos mediante separación espaciotemporal</h3>
+                    <p class="paper-summary">📝 Analiza el mecanismo de modelado temporal en SNNs y revela una competencia por recursos entre espacio y tiempo. Propone una Red Separable Espacio-Temporal (STSep) que desacopla la extracción semántica de la captura de movimiento, mejorando el rendimiento en tareas de video.</p>
+                    <div class="paper-points">• Cuantifica el papel de la propagación del potencial de membrana. Fenómeno contraintuitivo: remoción moderada mejora rendimiento. Propone STSep con ramas espacial y temporal independientes. Mejor desempeño en datasets de video.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05472" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -686,10 +2335,10 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">⚗</span>
-                    <h3 class="paper-title">️ Wasserstein Evolution: Optimización Evolutiva como Transición de Fase</h3>
-                    <p class="paper-summary">📝 Formaliza la optimización evolutiva como un proceso de transición de fase en física estadística. Introduce Wasserstein Evolution (WE), un marco que implementa el flujo de gradiente de Wasserstein de un funcional de energía libre, equilibrando explotación y exploración de manera teóricamente fundamentada.</p>
-                    <div class="paper-points">• Conexión entre computación evolutiva y física estadística. Marco WE basado en flujo de gradiente de Wasserstein. Equilibrio adaptativo entre exploración (entropía) y explotación (gradiente). Preserva alta diversidad poblacional en paisajes multimodales.</div>
+                    <span class="paper-emoji">🧬</span>
+                    <h3 class="paper-title">Wasserstein Evolution: La optimización evolutiva como transición de fase</h3>
+                    <p class="paper-summary">📝 Formaliza la optimización evolutiva como un proceso de transición de fase en física estadística. Introduce Wasserstein Evolution (WE), un marco que implementa el flujo de gradiente de Wasserstein de un funcional de energía libre, equilibrando explotación y exploración de forma teórica.</p>
+                    <div class="paper-points">• Conecta computación evolutiva con física estadística. WE traduce fuerzas de gradiente y entrópicas a dinámicas algorítmicas. Mantiene alta diversidad poblacional vs. métodos clásicos. Paradigma nuevo para entender la optimización.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05837" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
@@ -699,15 +2348,40 @@
                 </article>
 
                 <article class="paper-card">
-                    <span class="paper-emoji">💻</span>
-                    <h3 class="paper-title">EventQueues: Colas de eventos de espigas auto-diferenciables para simulación cerebral en aceleradores de IA</h3>
-                    <p class="paper-summary">📝 Aborda la simulación y entrenamiento eficiente de SNNs en aceleradores de IA mediante colas de eventos de espigas auto-diferenciables y con manejo de retardos. Evalúa diseños de colas en CPU, GPU, TPU y LPU, mostrando que el diseño impacta fuertemente el rendimiento.</p>
-                    <div class="paper-points">• Derivación del gradiente a través de colas de eventos con retardos. Implementación de estructuras de cola eficientes en memoria y con gradientes. Benchmark en múltiples plataformas de hardware (CPU
+                    <span class="paper-emoji">🤖</span>
+                    <h3 class="paper-title">EventQueues: Colas de eventos de picos auto-diferenciables para simulación cerebral en aceleradores de IA</h3>
+                    <p class="paper-summary">📝 Aborda la simulación y entrenamiento eficiente de SNNs en aceleradores de IA. Deriva el cálculo de gradientes a través de colas de eventos de picos, incluyendo retardos, e implementa estructuras de colas eficientes en memoria y con soporte de gradientes para distintas plataformas.</p>
+                    <div class="paper-points">• Colas de eventos de picos con gradientes y retardos. Estructuras eficientes para CPU
 •  GPU
-•  TPU
-•  LPU). Compensación rendimiento-precisión mediante descarte selectivo de espigas.</div>
+•  TPU y LPU. El diseño de la cola impacta fuertemente el rendimiento. El dropping selectivo de picos ofrece equilibrio precisión-rendimiento.</div>
                     <div class="paper-footer">
                         <a href="https://arxiv.org/pdf/2512.05906" class="paper-link" target="_blank" rel="noopener">
+                            📖 Leer Paper
+                        </a>
+                        <span class="paper-date">2025-12-08</span>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <section class="category" data-category="Ingeniería Computacional, Finanzas y Ciencia">
+            <div class="category-header">
+                <span style="font-size: 1.5rem;">📄</span>
+                <h2 class="category-title">Ingeniería Computacional, Finanzas y Ciencia</h2>
+                <span class="category-count">1</span>
+            </div>
+            
+            <div class="papers-grid">
+
+                <article class="paper-card">
+                    <span class="paper-emoji">📄</span>
+                    <h3 class="paper-title">📈 De Texto a Rendimientos: Usando Modelos de Lenguaje Grandes para Optimización de Portafolios de Fondos Mutuos y Asignación Ajustada al Riesgo</h3>
+                    <p class="paper-summary">📝 Investiga el uso de LLMs (como Zypher 7B) para crear estrategias de inversión en fondos mutuos. Combina un pipeline de Generación Aumentada por Recuperación (RAG) con métodos de optimización financiera tradicionales, logrando estrategias que maximizan rendimientos y ofrecen mejores resultados ajustados al riesgo que otros modelos.</p>
+                    <div class="paper-points">• Zypher 7B fue el modelo más efectivo
+•  superando a Phi 2 y Mistral 7B. Integra señales económicas en tiempo real para un contexto de inversión más preciso. Demuestra que la IA generativa supera significativamente los métodos de asignación básicos.</div>
+                    <div class="paper-footer">
+                        <a href="https://arxiv.org/pdf/2512.05907" class="paper-link" target="_blank" rel="noopener">
                             📖 Leer Paper
                         </a>
                         <span class="paper-date">2025-12-08</span>
@@ -780,7 +2454,7 @@
             if (category === 'all') {
                 categories.forEach(cat => cat.style.display = 'block');
                 dropdownToggle.textContent = 'Filtrar por categoría';
-                papersCount.textContent = `Mostrando 20 papers en 2 categorías`;
+                papersCount.textContent = `Mostrando 131 papers en 6 categorías`;
             } else {
                 let visiblePapers = 0;
                 categories.forEach(cat => {
